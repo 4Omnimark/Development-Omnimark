@@ -436,3 +436,10 @@ D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Servi
 D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
 D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.dll
 D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Devlopment Omnimark\Itemlookup\OmniUKClass\obj\Debug\OmniUKClass.pdb

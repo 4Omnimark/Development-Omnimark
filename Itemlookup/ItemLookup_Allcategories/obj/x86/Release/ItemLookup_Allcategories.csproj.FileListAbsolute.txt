@@ -77,3 +77,14 @@ D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Servi
 D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
 D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
 D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.pdb
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\EntityFramework.dll
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\OmniUKClass.dll
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\MWSClientCsRuntime-1.0.dll
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\OmniUKClass.pdb
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.Service.resources
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csproj.GenerateResource.Cache
