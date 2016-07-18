@@ -1,0 +1,47 @@
+151237: Issue in Rexeport: 0486273520   Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'UkListing.tbl_ToysNotPrime' does not contain a definition for 'ReExportFilename'
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.ReExport(String foldername, IEnumerable`1 data, String shortcode, Int32 flag) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 644
+151245: Issue in Writting File: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\MWS_SERVICE\ToysNotPrime\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.Generate(String filename, StringBuilder sb, String foldername) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 3589
+151403: Issue in Rexeport: 0486273520   Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'UkListing.tbl_ToysNotPrime' does not contain a definition for 'ReExportFilename'
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.ReExport(String foldername, IEnumerable`1 data, String shortcode, Int32 flag) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 645
+151403: Issue in Writting File: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\MWS_SERVICE\ToysNotPrime\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.Generate(String filename, StringBuilder sb, String foldername) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 3608
+151403: Issue in Rexeport: 0486273520   Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'UkListing.tbl_ToysNotPrime' does not contain a definition for 'ReExportFilename'
+   at CallSite.Target(Closure , CallSite , Object )
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.ReExport(String foldername, IEnumerable`1 data, String shortcode, Int32 flag) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 645
+151403: Issue in Writting File: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\MWS_SERVICE\ToysNotPrime\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.Generate(String filename, StringBuilder sb, String foldername) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 3608
+151404: Issue in Rexeport: 0486273520   Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'UkListing.tbl_ToysNotPrime' does not contain a definition for 'ReExportFilename'
+   at CallSite.Target(Closure , CallSite , Object )
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.ReExport(String foldername, IEnumerable`1 data, String shortcode, Int32 flag) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 645
+151404: Issue in Writting File: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\MWS_SERVICE\ToysNotPrime\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.Generate(String filename, StringBuilder sb, String foldername) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 3608
+151404: Issue in Rexeport: 0486273520   Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'UkListing.tbl_ToysNotPrime' does not contain a definition for 'ReExportFilename'
+   at CallSite.Target(Closure , CallSite , Object )
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.ReExport(String foldername, IEnumerable`1 data, String shortcode, Int32 flag) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 645
+151404: Issue in Writting File: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\MWS_SERVICE\ToysNotPrime\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at OmnimarkAmazonWeb.Controllers.ItemManagementController.Generate(String filename, StringBuilder sb, String foldername) in d:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\OnmimarkAmazonWeb\Controllers\ItemManagementController.cs:line 3608

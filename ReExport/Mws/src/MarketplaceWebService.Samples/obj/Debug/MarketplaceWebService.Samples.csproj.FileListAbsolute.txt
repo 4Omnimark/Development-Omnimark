@@ -1,0 +1,130 @@
+D:\api\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
+D:\api\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.pdb
+D:\api\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.dll
+D:\api\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.pdb
+D:\api\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.csprojResolveAssemblyReference.cache
+D:\api\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.exe
+D:\api\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.pdb
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe.config
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.csprojResolveAssemblyReference.cache
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.pdb
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonWeb.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\OmnimarkAmazonLibrary.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\EntityFramework.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Http.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\Yahoo.Yui.Compressor.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Net.Http.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\FBAInventoryServiceMWS.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceProducts.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\eBay.Service.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceOrders.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonCore2013.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Net.Http.Formatting.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\EcmaScript.NET.dll
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.pdb
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.pdb
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.xml
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.exe
+E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.pdb
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.pdb
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.pdb
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonWeb.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\OmnimarkAmazonLibrary.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\EntityFramework.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Http.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\Yahoo.Yui.Compressor.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Net.Http.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\FBAInventoryServiceMWS.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceProducts.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\eBay.Service.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceOrders.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonCore2013.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Net.Http.Formatting.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\EcmaScript.NET.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.pdb
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.pdb
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.xml
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll.config
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.dll
+E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.csprojResolveAssemblyReference.cache
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll.config
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.pdb
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonWeb.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Mvc.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OmnimarkAmazonLibrary.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\FBAInventoryServiceMWS.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceProducts.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\eBay.Service.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceOrders.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonCore2013.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.pdb
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.pdb
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Mvc.xml
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.pdb
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.csprojResolveAssemblyReference.cache
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.dll
+C:\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.pdb
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll.config
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.pdb
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonWeb.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Mvc.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OmnimarkAmazonLibrary.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonCore2013.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\FBAInventoryServiceMWS.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceProducts.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\eBay.Service.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceOrders.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.pdb
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.pdb
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Mvc.xml
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.pdb
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.csprojResolveAssemblyReference.cache
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.dll
+D:\LiveServices\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll.config
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonWeb.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Mvc.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OmnimarkAmazonLibrary.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\StartbuttonCore2013.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\FBAInventoryServiceMWS.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceProducts.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\eBay.Service.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebServiceOrders.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\Newtonsoft.Json.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\OnmimarkAmazonWeb.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\System.Web.Mvc.xml
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\bin\Debug\UkListing.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\Mws\src\MarketplaceWebService.Samples\obj\Debug\MarketplaceWebService.Samples.pdb

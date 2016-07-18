@@ -1,0 +1,4 @@
+sku	price	minimum-seller-allowed-price	maximum-seller-allowed-price	quantity	leadtime-to-ship
+"B014UVFYTG"	"59.99"	"49.99"	"69.99"	"0"	"5"
+"B015MDG602"	"49.99"	"39.99"	"59.99"	"0"	"5"
+"B015MDQ0XA"	"49.99"	"39.99"	"59.99"	"0"	"5"

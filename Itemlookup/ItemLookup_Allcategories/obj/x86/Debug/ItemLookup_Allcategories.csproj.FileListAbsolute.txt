@@ -1,0 +1,58 @@
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\ItemLookup_Allcategories.exe.config
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\EntityFramework.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\EntityFramework.xml
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\UKService.ProjectInstaller.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\UKservice\UKservice\obj\x86\Debug\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe.config
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\EntityFramework.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.pdb
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe.config
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.pdb
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\EntityFramework.dll
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\OmniUKClass.dll
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\MWSProducts_2011-10-01_v2015-09-01.dll
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\MWSClientCsRuntime-1.0.dll
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\OmniUKClass.pdb
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\OmnimarkAmazon.Service.Service.resources
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.exe
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe.config
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\EntityFramework.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Debug\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Debug\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Debug\ItemLookup_Allcategories.csproj.GenerateResource.Cache

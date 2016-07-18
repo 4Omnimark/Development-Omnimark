@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UKOmnimarkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_Beauty">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_BeautyNotPrime">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="Qty" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_Keywords">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Keywords" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbl_Prohibited_Keywords">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProhibitedKeys" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_Sports">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_SportsNotPrime">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="Qty" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Toys">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="Count" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="LargeImageURL" Type="nvarchar(max)" />
+    <Property Name="MediumImageURL" Type="nvarchar(max)" />
+    <Property Name="SmallImageURL" Type="nvarchar(max)" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_ToysNotPrime">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="LargeImageURL" Type="nvarchar(max)" />
+    <Property Name="MediumImageURL" Type="nvarchar(max)" />
+    <Property Name="SmallImageURL" Type="nvarchar(max)" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="Qty" Type="int" />
+  </EntityType>
+  <EntityContainer Name="UKOmnimarkModelStoreContainer">
+    <EntitySet Name="tbl_Beauty" EntityType="Self.tbl_Beauty" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BeautyNotPrime" EntityType="Self.tbl_BeautyNotPrime" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Category" EntityType="Self.tbl_Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Keywords" EntityType="Self.tbl_Keywords" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Prohibited_Keywords" EntityType="Self.tbl_Prohibited_Keywords" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Sports" EntityType="Self.tbl_Sports" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SportsNotPrime" EntityType="Self.tbl_SportsNotPrime" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Toys" EntityType="Self.tbl_Toys" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ToysNotPrime" EntityType="Self.tbl_ToysNotPrime" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

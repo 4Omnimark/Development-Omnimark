@@ -1,0 +1,456 @@
+003225: Main Executing.....
+003225: 
+003225: Service Starting...
+003225: Spawning ItemLookup thread...
+010645: Issue in Updating Values...ToysNotPrimeSystem.Data.EntityException: The underlying provider failed on Commit. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at OmniUKClass.BLCode.UKItemSearch.SendAWSResponse(String xml, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 369
+010828: Issue in Updating Values...ToysNotPrimeSystem.Data.EntityException: The underlying provider failed on Commit. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at OmniUKClass.BLCode.UKItemSearch.SendAWSResponse(String xml, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 369
+011021: Issue in Updating Values...ToysNotPrimeSystem.Data.EntityException: The underlying provider failed on Commit. ---> System.InvalidOperationException: Invalid operation. The connection is closed.
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at OmniUKClass.BLCode.UKItemSearch.SendAWSResponse(String xml, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 369
+013149: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+014811: Issue in Updating Values...ToysNotPrimeSystem.Data.EntityException: The underlying provider failed on Commit. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at OmniUKClass.BLCode.UKItemSearch.SendAWSResponse(String xml, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 369
+015128: Issue in Updating Values...ToysNotPrimeSystem.Data.EntityException: The underlying provider failed on Commit. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at OmniUKClass.BLCode.UKItemSearch.SendAWSResponse(String xml, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 369
+020102: Issue in Updating Values...ToysNotPrimeSystem.Data.EntityException: The underlying provider failed on Commit. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityTransaction.Commit()
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at OmniUKClass.BLCode.UKItemSearch.SendAWSResponse(String xml, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 369
+020338: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+020414: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+022143: Main Executing.....
+022143: 
+022143: Service Starting...
+022143: Spawning ItemLookup thread...
+022154: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+022155: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+022204: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+022321: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+025543: Main Executing.....
+025543: 
+025543: Service Starting...
+025543: Spawning ItemLookup thread...
+030951: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031228: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031259: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031303: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031309: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031339: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031342: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031342: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031356: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031358: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031359: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031401: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031401: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+031402: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033641: Main Executing.....
+033641: 
+033641: Service Starting...
+033641: Spawning ItemLookup thread...
+033834: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033835: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033837: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033839: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033840: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033841: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033841: Issue in Selecting Values from SportsNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 117
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinSportsNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 911
+033841: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033841: Issue in Selecting Values from BabyNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinBabyNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 947
+033845: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033846: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033851: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033851: Issue in Selecting Values from Jewelry Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinJewellery() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 660
+033851: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033851: Issue in Selecting Values from WatchesNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 117
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 117
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinWatchesNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 839
+033906: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033906: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033906: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033928: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033933: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033933: Issue in Selecting Values from BeautyNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 117
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinBeautyNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 983
+033936: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033936: Issue in Selecting Values from Toys Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinToys() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 696
+033937: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033937: Issue in Selecting Values from Sports Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinSports() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 550
+033938: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033938: Issue in Selecting Values from HomeAndKitchenNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinHomeAndKitchenNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 1019
+033939: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033939: Issue in Selecting Values from JewelryNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinJewelryNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 875
+033939: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033939: Issue in Selecting Values from ToysNotPrime Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinToysNotPrime() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 767
+033940: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033940: Issue in Selecting Values from Baby Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinBaby() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 624
+033941: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033941: Issue in Selecting Values from Beauty Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinBeauty() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 587
+033941: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033941: Issue in Selecting Values from Watches Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinWatches() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 731
+033943: Amazon Throttling EXCEPTION: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+033943: Issue in Selecting Values from HomeAndKitchen Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016 ---> MWSClientCsRuntime.MwsException: You exceeded your quota of 72000.0 requests per 1 hour for operation Products/2011-10-01/GetLowestOfferListingsForASIN.  Your quota will reset on Wed Jun 08 10:42:00 UTC 2016
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 122
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinHomeAndKitchen() in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 803
+035301: Main Executing.....
+035301: 
+035301: Service Starting...
+035301: Spawning ItemLookup thread...
+035459: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+035503: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62
+035510: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in e:\Ram\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 62

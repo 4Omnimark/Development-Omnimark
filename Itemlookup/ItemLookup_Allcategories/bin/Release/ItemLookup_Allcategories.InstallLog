@@ -1,0 +1,21 @@
+﻿Installing assembly 'D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.InstallLog
+   assemblypath = D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe
+Installing service UK_Project_Itemlookup_Service...
+Service UK_Project_Itemlookup_Service has been successfully installed.
+Creating EventLog source UK_Project_Itemlookup_Service in log Application...
+Committing assembly 'D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.InstallLog
+   assemblypath = D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe
+Uninstalling assembly 'D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.InstallLog
+   assemblypath = D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Debug\ItemLookup_Allcategories.exe
+Removing EventLog source UK_Project_Itemlookup_Service.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+Service UK_Project_Itemlookup_Service was successfully removed from the system.

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://webservices.amazon.com/AWSECommerceService/2011-08-01" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ItemSearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="OperationRequest">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HTTPHeaders">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Header">
+                      <xs:complexType>
+                        <xs:attribute name="Name" type="xs:string" use="required" />
+                        <xs:attribute name="Value" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="RequestId" type="xs:string" />
+              <xs:element name="Arguments">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Argument">
+                      <xs:complexType>
+                        <xs:attribute name="Name" type="xs:string" use="required" />
+                        <xs:attribute name="Value" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="RequestProcessingTime" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Items">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Request">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="IsValid" type="xs:string" />
+                    <xs:element name="ItemSearchRequest">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Keywords" type="xs:string" />
+                          <xs:element maxOccurs="unbounded" name="ResponseGroup" type="xs:string" />
+                          <xs:element name="SearchIndex" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="TotalResults" type="xs:unsignedInt" />
+              <xs:element name="TotalPages" type="xs:unsignedInt" />
+              <xs:element name="MoreSearchResultsUrl" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="Item">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ASIN" type="xs:string" />
+                    <xs:element name="ParentASIN" type="xs:string" />
+                    <xs:element name="DetailPageURL" type="xs:string" />
+                    <xs:element name="ItemLinks">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="ItemLink">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Description" type="xs:string" />
+                                <xs:element name="URL" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="SalesRank" type="xs:string" />
+                    <xs:element name="SmallImage">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="URL" type="xs:string" />
+                          <xs:element name="Height">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Units" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Width">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Units" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="MediumImage">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="URL" type="xs:string" />
+                          <xs:element name="Height">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Units" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Width">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Units" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="LargeImage">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="URL" type="xs:string" />
+                          <xs:element name="Height">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Units" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Width">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Units" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ImageSets">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="ImageSet">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="SwatchImage">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="URL" type="xs:string" />
+                                      <xs:element name="Height">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="Width">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="SmallImage">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="URL" type="xs:string" />
+                                      <xs:element name="Height">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="Width">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ThumbnailImage">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="URL" type="xs:string" />
+                                      <xs:element name="Height">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="Width">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="TinyImage">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="URL" type="xs:string" />
+                                      <xs:element name="Height">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="Width">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="MediumImage">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="URL" type="xs:string" />
+                                      <xs:element name="Height">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="Width">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="LargeImage">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="URL" type="xs:string" />
+                                      <xs:element name="Height">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="Width">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Units" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Category" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ItemAttributes">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Binding" type="xs:string" />
+                          <xs:element name="Brand" type="xs:string" />
+                          <xs:element minOccurs="0" name="CatalogNumberList">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="CatalogNumberListElement" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="EAN" type="xs:string" />
+                          <xs:element name="EANList">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="EANListElement" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Edition" type="xs:string" />
+                          <xs:element minOccurs="0" name="ESRBAgeRating" type="xs:string" />
+                          <xs:element maxOccurs="unbounded" name="Feature">
+                            <xs:complexType mixed="true">
+                              <xs:sequence minOccurs="0">
+                                <xs:element maxOccurs="unbounded" name="a">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="href" type="xs:string" use="required" />
+                                        <xs:attribute name="target" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Genre" type="xs:string" />
+                          <xs:element minOccurs="0" name="Format" type="xs:string" />
+                          <xs:element name="HardwarePlatform" type="xs:string" />
+                          <xs:element minOccurs="0" name="IsEligibleForTradeIn" type="xs:string" />
+                          <xs:element minOccurs="0" name="ItemDimensions">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="Height">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="Length">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Weight">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="Width">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Label" type="xs:string" />
+                          <xs:element minOccurs="0" name="Languages">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="Language">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="Name" type="xs:string" />
+                                      <xs:element name="Type" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ListPrice">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Amount" type="xs:string" />
+                                <xs:element name="CurrencyCode" type="xs:string" />
+                                <xs:element name="FormattedPrice" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Manufacturer" type="xs:string" />
+                          <xs:element minOccurs="0" name="Model" type="xs:string" />
+                          <xs:element minOccurs="0" name="MPN" type="xs:string" />
+                          <xs:element minOccurs="0" name="NumberOfDiscs" type="xs:string" />
+                          <xs:element minOccurs="0" name="NumberOfItems" type="xs:string" />
+                          <xs:element name="OperatingSystem" type="xs:string" />
+                          <xs:element name="PackageDimensions">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Height">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Length">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Weight">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Width">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Units" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="PackageQuantity" type="xs:string" />
+                          <xs:element minOccurs="0" name="PartNumber" type="xs:string" />
+                          <xs:element name="Platform" type="xs:string" />
+                          <xs:element name="ProductGroup" type="xs:string" />
+                          <xs:element name="ProductTypeName" type="xs:string" />
+                          <xs:element minOccurs="0" name="PublicationDate" type="xs:date" />
+                          <xs:element name="Publisher" type="xs:string" />
+                          <xs:element name="ReleaseDate" type="xs:date" />
+                          <xs:element name="Studio" type="xs:string" />
+                          <xs:element name="Title" type="xs:string" />
+                          <xs:element minOccurs="0" name="TradeInValue">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Amount" type="xs:string" />
+                                <xs:element name="CurrencyCode" type="xs:string" />
+                                <xs:element name="FormattedPrice" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="UPC" type="xs:string" />
+                          <xs:element name="UPCList">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="UPCListElement" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="OfferSummary">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="LowestNewPrice">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Amount" type="xs:string" />
+                                <xs:element name="CurrencyCode" type="xs:string" />
+                                <xs:element name="FormattedPrice" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="LowestUsedPrice">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Amount" type="xs:string" />
+                                <xs:element name="CurrencyCode" type="xs:string" />
+                                <xs:element name="FormattedPrice" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="TotalNew" type="xs:string" />
+                          <xs:element name="TotalUsed" type="xs:string" />
+                          <xs:element name="TotalCollectible" type="xs:string" />
+                          <xs:element name="TotalRefurbished" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Offers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="TotalOffers" type="xs:string" />
+                          <xs:element name="TotalOfferPages" type="xs:string" />
+                          <xs:element name="MoreOffersUrl" type="xs:string" />
+                          <xs:element name="Offer">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="OfferAttributes">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="Condition" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="OfferListing">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="OfferListingId" type="xs:string" />
+                                      <xs:element name="Price">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="Amount" type="xs:string" />
+                                            <xs:element name="CurrencyCode" type="xs:string" />
+                                            <xs:element name="FormattedPrice" type="xs:string" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="AmountSaved">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="Amount" type="xs:string" />
+                                            <xs:element name="CurrencyCode" type="xs:string" />
+                                            <xs:element name="FormattedPrice" type="xs:string" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="PercentageSaved" type="xs:string" />
+                                      <xs:element name="Availability" type="xs:string" />
+                                      <xs:element name="AvailabilityAttributes">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="AvailabilityType" type="xs:string" />
+                                            <xs:element minOccurs="0" name="IsPreorder" type="xs:string" />
+                                            <xs:element name="MinimumHours" type="xs:string" />
+                                            <xs:element name="MaximumHours" type="xs:string" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="IsEligibleForSuperSaverShipping" type="xs:string" />
+                                      <xs:element name="IsEligibleForPrime" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="EditorialReviews">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="EditorialReview">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Source" type="xs:string" />
+                                <xs:element name="Content" type="xs:string" />
+                                <xs:element name="IsLinkSuppressed" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2014-07-21T08:58:39.4374704-07:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAocG2/Xd6xUWhN4amt/NkOQAAAAACAAAAAAAQZgAAAAEAACAAAABV/ONTTgEhTZC92ov4rWoMjwEARuXhQ78qF+VG+1qNzwAAAAAOgAAAAAIAACAAAADaChVh8LV7NcxFA0B5mTgH1jU3tgRq8lbVQ4wPXpkYGSAAAAB8fKgajQXmx27gaiae/c3XJqi8a0ENB5WDEbNjuf5v9UAAAADbZ0Vge0RDPkjX0rbKnDVvHCexJbktZXVrQf7YEhhGEmkKGdFhQ94tVZ56v7wd8XItbwszBuAMI8EyAY6Mjcel</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/com.ddmresources.EnumMetadata.Core.dll">
+      <publishTime>04/03/2013 15:40:36</publishTime>
+    </File>
+    <File Include="bin/com.ddmresources.EnumMetadata.Core.pdb">
+      <publishTime>04/03/2013 15:40:36</publishTime>
+    </File>
+    <File Include="bin/eBay.Service.dll">
+      <publishTime>03/17/2014 11:52:44</publishTime>
+    </File>
+    <File Include="bin/eBay.Service.pdb">
+      <publishTime>01/15/2014 18:13:05</publishTime>
+    </File>
+    <File Include="bin/eBay.Service.xml">
+      <publishTime>01/15/2014 18:13:04</publishTime>
+    </File>
+    <File Include="bin/EcmaScript.NET.dll">
+      <publishTime>02/17/2013 15:51:13</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/30/2013 19:34:10</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.xml">
+      <publishTime>01/30/2013 19:34:10</publishTime>
+    </File>
+    <File Include="bin/FBAInventoryServiceMWS.dll">
+      <publishTime>03/17/2014 11:52:34</publishTime>
+    </File>
+    <File Include="bin/FBAInventoryServiceMWS.pdb">
+      <publishTime>02/04/2014 16:35:44</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>01/30/2013 19:35:19</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.pdb">
+      <publishTime>01/30/2013 19:35:19</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.xml">
+      <publishTime>01/30/2013 19:35:19</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.dll">
+      <publishTime>02/17/2013 15:51:14</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.xml">
+      <publishTime>02/17/2013 15:51:14</publishTime>
+    </File>
+    <File Include="bin/JHSoftware.DnsClient.dll">
+      <publishTime>06/30/2012 08:51:30</publishTime>
+    </File>
+    <File Include="bin/JHSoftware.DnsClient.xml">
+      <publishTime>06/30/2012 08:51:28</publishTime>
+    </File>
+    <File Include="bin/libmspackn.dll">
+      <publishTime>04/09/2013 12:29:07</publishTime>
+    </File>
+    <File Include="bin/libmspackn.pdb">
+      <publishTime>04/09/2013 12:29:07</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>02/27/2013 03:35:05</publishTime>
+    </File>
+    <File Include="bin/log4net.xml">
+      <publishTime>02/27/2013 03:35:05</publishTime>
+    </File>
+    <File Include="bin/MarketplaceWebService.dll">
+      <publishTime>02/04/2014 13:15:06</publishTime>
+    </File>
+    <File Include="bin/MarketplaceWebService.pdb">
+      <publishTime>02/04/2014 13:15:05</publishTime>
+    </File>
+    <File Include="bin/MarketplaceWebServiceOrders.dll">
+      <publishTime>03/17/2014 11:52:28</publishTime>
+    </File>
+    <File Include="bin/MarketplaceWebServiceOrders.pdb">
+      <publishTime>10/29/2013 10:14:56</publishTime>
+    </File>
+    <File Include="bin/MarketplaceWebServiceProducts.dll">
+      <publishTime>10/29/2013 10:02:33</publishTime>
+    </File>
+    <File Include="bin/MarketplaceWebServiceProducts.pdb">
+      <publishTime>10/29/2013 10:02:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>02/12/2013 09:48:33</publishTime>
+    </File>
+    <File Include="bin/mspack.dll">
+      <publishTime>04/09/2013 12:54:48</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/03/2013 15:40:35</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.xml">
+      <publishTime>04/03/2013 15:40:35</publishTime>
+    </File>
+    <File Include="bin/OmnimarkAmazonLibrary.dll">
+      <publishTime>04/21/2014 11:37:10</publishTime>
+    </File>
+    <File Include="bin/OmnimarkAmazonLibrary.pdb">
+      <publishTime>04/08/2014 21:21:14</publishTime>
+    </File>
+    <File Include="bin/OnmimarkAmazonWeb.dll">
+      <publishTime>04/21/2014 11:37:15</publishTime>
+    </File>
+    <File Include="bin/OnmimarkAmazonWeb.pdb">
+      <publishTime>04/08/2014 22:18:12</publishTime>
+    </File>
+    <File Include="bin/PagingSorting.dll">
+      <publishTime>03/17/2014 11:52:32</publishTime>
+    </File>
+    <File Include="bin/PagingSorting.pdb">
+      <publishTime>09/25/2013 16:14:42</publishTime>
+    </File>
+    <File Include="bin/PagingSorting.Web.dll">
+      <publishTime>04/06/2014 22:03:09</publishTime>
+    </File>
+    <File Include="bin/PagingSorting.Web.pdb">
+      <publishTime>04/08/2014 22:17:45</publishTime>
+    </File>
+    <File Include="bin/PayPalCoreSDK.dll">
+      <publishTime>02/27/2013 03:35:06</publishTime>
+    </File>
+    <File Include="bin/PayPalMerchantSDK.dll">
+      <publishTime>02/27/2013 03:35:06</publishTime>
+    </File>
+    <File Include="bin/StartbuttonCore.dll">
+      <publishTime>04/06/2014 21:25:14</publishTime>
+    </File>
+    <File Include="bin/StartbuttonCore.pdb">
+      <publishTime>04/05/2014 00:08:44</publishTime>
+    </File>
+    <File Include="bin/StartbuttonWeb.dll">
+      <publishTime>04/16/2014 14:03:44</publishTime>
+    </File>
+    <File Include="bin/StartbuttonWeb.pdb">
+      <publishTime>04/08/2014 22:18:05</publishTime>
+    </File>
+    <File Include="bin/SyrinxMenuV3.dll">
+      <publishTime>12/14/2012 16:17:43</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/09/2013 12:04:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/09/2013 12:04:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/12/2013 09:48:33</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.xml">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>07/09/2013 12:04:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.xml">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/12/2013 09:48:33</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.xml">
+      <publishTime>02/12/2013 09:48:33</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.xml">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.xml">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.xml">
+      <publishTime>02/12/2013 09:48:34</publishTime>
+    </File>
+    <File Include="bin/TidyNet.dll">
+      <publishTime>06/30/2012 08:51:34</publishTime>
+    </File>
+    <File Include="bin/TidyNet.pdb">
+      <publishTime>06/30/2012 08:51:39</publishTime>
+    </File>
+    <File Include="bin/wix.dll">
+      <publishTime>04/09/2013 12:29:07</publishTime>
+    </File>
+    <File Include="bin/Yahoo.Yui.Compressor.dll">
+      <publishTime>02/17/2013 15:51:14</publishTime>
+    </File>
+    <File Include="Content/images/delete.png">
+      <publishTime>10/16/2013 07:18:55</publishTime>
+    </File>
+    <File Include="Content/images/loading.gif">
+      <publishTime>06/04/2013 14:15:44</publishTime>
+    </File>
+    <File Include="Content/images/log.png">
+      <publishTime>01/30/2014 13:53:54</publishTime>
+    </File>
+    <File Include="Content/images/onorder.png">
+      <publishTime>05/29/2013 14:33:48</publishTime>
+    </File>
+    <File Include="Content/images/refresh.gif">
+      <publishTime>01/30/2013 19:34:24</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>06/25/2013 15:31:51</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>06/25/2013 15:32:22</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>06/25/2013 15:32:19</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>06/25/2013 15:32:26</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>06/25/2013 15:32:30</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>06/25/2013 15:32:33</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>06/25/2013 15:32:38</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>06/25/2013 15:32:42</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_222222_256x240.png">
+      <publishTime>06/25/2013 15:32:50</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>06/25/2013 15:32:53</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_454545_256x240.png">
+      <publishTime>06/25/2013 15:32:56</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_888888_256x240.png">
+      <publishTime>06/25/2013 15:33:00</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>06/25/2013 15:33:11</publishTime>
+    </File>
+    <File Include="Content/jquery-ui-1.10.0.css">
+      <publishTime>06/10/2013 11:57:12</publishTime>
+    </File>
+    <File Include="Content/jquery.tooltip.css">
+      <publishTime>01/30/2013 19:34:24</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/11/2014 14:17:30</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>04/11/2014 09:13:05</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/11/2014 09:37:54</publishTime>
+    </File>
+    <File Include="Scripts/AmazonInventory.js">
+      <publishTime>06/12/2013 13:15:08</publishTime>
+    </File>
+    <File Include="Scripts/Common.js">
+      <publishTime>04/11/2014 08:57:49</publishTime>
+    </File>
+    <File Include="Scripts/date.js">
+      <publishTime>04/02/2013 21:38:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.5.1-vsdoc.js">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.5.1.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.5.1.min.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.3.min.js">
+      <publishTime>02/07/2013 18:39:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>06/10/2013 11:55:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.10.0.min.js">
+      <publishTime>02/07/2013 18:39:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.10.3.min.js">
+      <publishTime>06/10/2013 11:55:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.11.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.11.min.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.bgiframe.js">
+      <publishTime>04/24/2013 07:10:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.dimensions.js">
+      <publishTime>04/24/2013 07:10:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery.numberformatter-1.2.3.min.js">
+      <publishTime>06/11/2013 20:20:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery.stickyTableHeaders.js">
+      <publishTime>06/05/2013 15:53:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.syrinxmenu.js">
+      <publishTime>12/14/2012 16:13:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.tooltip.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.tooltip.min.js">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery.tooltip.pack.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate-vsdoc.js">
+      <publishTime>04/11/2014 09:13:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/11/2014 09:13:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>04/11/2014 09:13:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/jshashtable-2.1.js">
+      <publishTime>06/11/2013 20:47:25</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftAjax.debug.js">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftAjax.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcAjax.debug.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcAjax.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcValidation.debug.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/MicrosoftMvcValidation.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-1.7.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-1.7.min.js">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Scripts/ProductDateSelection.js">
+      <publishTime>06/12/2013 13:10:31</publishTime>
+    </File>
+    <File Include="Scripts/ProductFiltering.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Scripts/Reports.js">
+      <publishTime>07/04/2013 11:45:06</publishTime>
+    </File>
+    <File Include="Scripts/VendorSelection.js">
+      <publishTime>01/30/2013 19:34:19</publishTime>
+    </File>
+    <File Include="Tools/DeductInventoryEBay.aspx">
+      <publishTime>04/05/2014 17:48:16</publishTime>
+    </File>
+    <File Include="Tools/DeductInventoryFBA.aspx">
+      <publishTime>04/05/2014 17:31:47</publishTime>
+    </File>
+    <File Include="Tools/DeductInventoryMerchantFulfilled.aspx">
+      <publishTime>04/05/2014 17:46:24</publishTime>
+    </File>
+    <File Include="Tools/UpdateInventory.aspx">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Tools/UpdateNonUpdatedInventory.aspx">
+      <publishTime>01/03/2014 14:59:15</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePassword.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePasswordSuccess.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/Account/LogOn.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/AssociatedProduct.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/AssociatedProducts.cshtml">
+      <publishTime>11/13/2012 21:30:21</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/FBACalc.cshtml">
+      <publishTime>04/01/2013 10:03:42</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/GetASINsWithAttributes.cshtml">
+      <publishTime>02/07/2013 17:47:52</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/Index.cshtml">
+      <publishTime>03/04/2014 14:52:46</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/IndexNew.cshtml">
+      <publishTime>06/12/2013 12:21:58</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/KnownASINsWithInventoryAndSales.cshtml">
+      <publishTime>06/11/2013 11:51:58</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/NeedInInventory.cshtml">
+      <publishTime>05/15/2013 15:17:41</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/NeedInInventory/SelectAccount.cshtml">
+      <publishTime>05/29/2013 12:03:12</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/NeedInInventory/SelectCountry.cshtml">
+      <publishTime>05/29/2013 11:17:58</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/NeedInInventory/SelectProduct.cshtml">
+      <publishTime>05/29/2013 12:03:12</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/NeedInInventory/SelectVendor.cshtml">
+      <publishTime>07/02/2013 14:40:05</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/NeedInInventory/ViewASINs.cshtml">
+      <publishTime>05/29/2013 12:03:12</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/Products.cshtml">
+      <publishTime>02/07/2013 16:50:43</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/ProductsInventory.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/AmazonInventory/SOSInventoryExport.cshtml">
+      <publishTime>01/02/2014 12:35:19</publishTime>
+    </File>
+    <File Include="Views/AutomaticPriceChange/Delete.cshtml">
+      <publishTime>04/03/2013 20:38:38</publishTime>
+    </File>
+    <File Include="Views/AutomaticPriceChange/Edit.cshtml">
+      <publishTime>04/18/2013 17:03:40</publishTime>
+    </File>
+    <File Include="Views/AutomaticPriceChange/Index.cshtml">
+      <publishTime>04/02/2013 21:03:02</publishTime>
+    </File>
+    <File Include="Views/eBay/AssociatedProduct.cshtml">
+      <publishTime>01/24/2014 10:37:28</publishTime>
+    </File>
+    <File Include="Views/eBay/AssociatedProducts.cshtml">
+      <publishTime>01/24/2014 10:34:48</publishTime>
+    </File>
+    <File Include="Views/eBay/eBayItemsList.cshtml">
+      <publishTime>03/06/2014 14:46:33</publishTime>
+    </File>
+    <File Include="Views/eBay/Products.cshtml">
+      <publishTime>01/24/2014 10:33:16</publishTime>
+    </File>
+    <File Include="Views/Export/Delete.cshtml">
+      <publishTime>02/25/2013 18:14:36</publishTime>
+    </File>
+    <File Include="Views/Export/ExportSpec.cshtml">
+      <publishTime>03/27/2013 18:44:45</publishTime>
+    </File>
+    <File Include="Views/Export/Index.cshtml">
+      <publishTime>03/05/2013 12:28:02</publishTime>
+    </File>
+    <File Include="Views/Export/ViewData.cshtml">
+      <publishTime>02/07/2013 22:53:00</publishTime>
+    </File>
+    <File Include="Views/Export/ViewExport.cshtml">
+      <publishTime>03/15/2013 12:56:51</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/BlankLayout.cshtml">
+      <publishTime>03/30/2013 11:07:21</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/Delete.cshtml">
+      <publishTime>03/29/2013 10:41:16</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/Edit.cshtml">
+      <publishTime>03/29/2013 19:35:37</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/Index.cshtml">
+      <publishTime>03/30/2013 13:14:41</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/MessageFields/Price.cshtml">
+      <publishTime>03/27/2013 17:06:33</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/QueueList.cshtml">
+      <publishTime>03/30/2013 13:23:16</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/ScheduleListing.cshtml">
+      <publishTime>04/03/2013 22:14:34</publishTime>
+    </File>
+    <File Include="Views/FeedSubmissionSchedule/SystemStatus.cshtml">
+      <publishTime>03/30/2013 12:41:17</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/11/2014 14:53:52</publishTime>
+    </File>
+    <File Include="Views/Home/RunTool.cshtml">
+      <publishTime>04/11/2014 15:10:42</publishTime>
+    </File>
+    <File Include="Views/ItemSearch/AddKnownASIN.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/ItemSearch/ASINAdded.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/ItemSearch/Index.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/ProductInventory/Index.cshtml">
+      <publishTime>03/07/2014 10:18:28</publishTime>
+    </File>
+    <File Include="Views/Products/Delete.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/Products/Edit.cshtml">
+      <publishTime>10/16/2013 09:02:56</publishTime>
+    </File>
+    <File Include="Views/Products/Index.cshtml">
+      <publishTime>03/07/2013 07:19:51</publishTime>
+    </File>
+    <File Include="Views/Purchasing/PurchaseOrder.cshtml">
+      <publishTime>03/04/2013 09:41:43</publishTime>
+    </File>
+    <File Include="Views/Purchasing/PurchaseOrders.cshtml">
+      <publishTime>09/17/2013 13:35:38</publishTime>
+    </File>
+    <File Include="Views/Purchasing/Received.cshtml">
+      <publishTime>02/04/2014 10:07:08</publishTime>
+    </File>
+    <File Include="Views/Purchasing/ReceivedShipment.cshtml">
+      <publishTime>03/04/2013 09:41:43</publishTime>
+    </File>
+    <File Include="Views/Purchasing/VendorSelection.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/Reports/BuyBoxChange.cshtml">
+      <publishTime>06/14/2013 12:11:44</publishTime>
+    </File>
+    <File Include="Views/Reports/BuyBoxChangeReport.cshtml">
+      <publishTime>06/21/2013 12:59:42</publishTime>
+    </File>
+    <File Include="Views/Reports/Index.cshtml">
+      <publishTime>01/13/2014 20:15:02</publishTime>
+    </File>
+    <File Include="Views/Reports/InventoryValue.cshtml">
+      <publishTime>03/07/2014 10:55:05</publishTime>
+    </File>
+    <File Include="Views/Reports/InventoryValueReport.cshtml">
+      <publishTime>04/04/2014 23:23:09</publishTime>
+    </File>
+    <File Include="Views/Reports/OutPriced.cshtml">
+      <publishTime>06/21/2013 14:01:08</publishTime>
+    </File>
+    <File Include="Views/Reports/OutPricedReport.cshtml">
+      <publishTime>06/21/2013 15:47:24</publishTime>
+    </File>
+    <File Include="Views/Reports/Profitability.cshtml">
+      <publishTime>06/25/2013 15:25:15</publishTime>
+    </File>
+    <File Include="Views/Reports/ProfitabilityByOrder.cshtml">
+      <publishTime>04/07/2014 14:23:06</publishTime>
+    </File>
+    <File Include="Views/Reports/ProfitabilityByOrderReport.cshtml">
+      <publishTime>04/07/2014 14:23:06</publishTime>
+    </File>
+    <File Include="Views/Reports/ProfitabilityReport.cshtml">
+      <publishTime>06/25/2013 14:31:45</publishTime>
+    </File>
+    <File Include="Views/Reports/SalesChange.cshtml">
+      <publishTime>06/25/2013 15:23:10</publishTime>
+    </File>
+    <File Include="Views/Reports/SalesChangeReport.cshtml">
+      <publishTime>06/21/2013 13:01:08</publishTime>
+    </File>
+    <File Include="Views/Reports/SpecialPriceSales.cshtml">
+      <publishTime>07/04/2013 09:17:25</publishTime>
+    </File>
+    <File Include="Views/Reports/SpecialPriceSalesReport.cshtml">
+      <publishTime>06/21/2013 16:10:19</publishTime>
+    </File>
+    <File Include="Views/Reports/StaleInventory.cshtml">
+      <publishTime>06/21/2013 12:44:37</publishTime>
+    </File>
+    <File Include="Views/Reports/StaleInventoryReport.cshtml">
+      <publishTime>08/21/2013 13:30:58</publishTime>
+    </File>
+    <File Include="Views/SearchTerms/Delete.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/SearchTerms/Edit.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/SearchTerms/Index.cshtml">
+      <publishTime>01/30/2013 19:34:20</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/Shared/RegisterForm.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/11/2014 14:27:49</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutForEmail.cshtml">
+      <publishTime>04/01/2013 10:03:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_LogOnPartial.cshtml">
+      <publishTime>01/30/2013 19:34:22</publishTime>
+    </File>
+    <File Include="Views/Traffic/UploadData.cshtml">
+      <publishTime>10/30/2013 11:35:32</publishTime>
+    </File>
+    <File Include="Views/UnderPriced/Index.cshtml">
+      <publishTime>05/14/2013 09:21:00</publishTime>
+    </File>
+    <File Include="Views/Users/Delete.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/Users/Edit.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/Users/Index.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/Vendors/Index.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Views/Vendors/Vendor.cshtml">
+      <publishTime>03/04/2013 09:41:43</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/12/2013 10:01:33</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/30/2013 19:34:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/23/2014 11:32:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

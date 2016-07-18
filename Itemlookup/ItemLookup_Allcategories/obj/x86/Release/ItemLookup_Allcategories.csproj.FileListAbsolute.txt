@@ -1,0 +1,79 @@
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\EntityFramework.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.pdb
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\EntityFramework.dll
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\OmniUKClass.dll
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\MWSClientCsRuntime-1.0.dll
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\OmniUKClass.pdb
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.Service.resources
+D:\UK ITEM LOOKUP 27-05-2016\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+E:\Ram\ItemLookup_Allcategories\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\EntityFramework.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+D:\Omnimark Projects Github\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\Omnimark Projects Github\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Projects Github\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\EntityFramework.dll
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\OmniUKClass.dll
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\OmniUKClass.pdb
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Projects Github\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.pdb
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\EntityFramework.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\OmniUKClass.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\MWSProducts_2011-10-01_v2015-09-01.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\MWSClientCsRuntime-1.0.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\bin\Release\OmniUKClass.pdb
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\OmnimarkAmazon.Service.Service.resources
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.csproj.GenerateResource.Cache
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\bin\Release\ItemLookup_Allcategories.exe.config
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.exe
+D:\Devlopment Omnimark\Itemlookup\ItemLookup_Allcategories\obj\x86\Release\ItemLookup_Allcategories.pdb

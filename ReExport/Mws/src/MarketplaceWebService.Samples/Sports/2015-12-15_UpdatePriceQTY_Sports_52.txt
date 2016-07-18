@@ -1,0 +1,3 @@
+sku	price	minimum-seller-allowed-price	maximum-seller-allowed-price	quantity	leadtime-to-ship
+"1603800859"	"105.98"	"95.98"	"115.98"	"1"	"5"
+"1936022834"	"49.99"	"39.99"	"59.99"	"1"	"5"

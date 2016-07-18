@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UKOmnimarkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UKOmnimark.dbo.tbl_Baby' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Baby">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ExportAllStatus" Type="int" />
+    <Property Name="ImportFromNonPrime" Type="int" />
+    <Property Name="Account1_Status" Type="int" />
+    <Property Name="Account1_ExportDate" Type="datetime" />
+    <Property Name="Account1_ReExport" Type="int" />
+    <Property Name="Account1_FileName" Type="nvarchar(max)" />
+    <Property Name="Account2_Status" Type="int" />
+    <Property Name="Account2_ExportDate" Type="datetime" />
+    <Property Name="Account2_ReExport" Type="int" />
+    <Property Name="Account2_FileName" Type="nvarchar(max)" />
+    <Property Name="Account3_Status" Type="int" />
+    <Property Name="Account3_ExportDate" Type="datetime" />
+    <Property Name="Account3_ReExport" Type="int" />
+    <Property Name="Account3_FileName" Type="nvarchar(max)" />
+    <Property Name="CanadaProhibited" Type="int" Nullable="false" />
+    <Property Name="ForceExport" Type="int" Nullable="false" />
+    <Property Name="ReExportTimeStamp" Type="datetime" />
+    <Property Name="ReExportFilename" Type="nvarchar(max)" />
+    <Property Name="account1_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account2_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account3_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="Account4_Status" Type="int" />
+    <Property Name="Account4_ExportDate" Type="datetime" />
+    <Property Name="Account4_ReExport" Type="int" />
+    <Property Name="Account4_FileName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UKOmnimark.dbo.tbl_Beauty' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Beauty">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ExportAllStatus" Type="int" />
+    <Property Name="ImportFromNonPrime" Type="int" />
+    <Property Name="Account1_Status" Type="int" />
+    <Property Name="Account1_ExportDate" Type="datetime" />
+    <Property Name="Account1_ReExport" Type="int" />
+    <Property Name="Account1_FileName" Type="nvarchar(max)" />
+    <Property Name="Account2_Status" Type="int" />
+    <Property Name="Account2_ExportDate" Type="datetime" />
+    <Property Name="Account2_ReExport" Type="int" />
+    <Property Name="Account2_FileName" Type="nvarchar(max)" />
+    <Property Name="Account3_Status" Type="int" />
+    <Property Name="Account3_ExportDate" Type="datetime" />
+    <Property Name="Account3_ReExport" Type="int" />
+    <Property Name="Account3_FileName" Type="nvarchar(max)" />
+    <Property Name="CanadaProhibited" Type="int" Nullable="false" />
+    <Property Name="ForceExport" Type="int" Nullable="false" />
+    <Property Name="ReExportTimeStamp" Type="datetime" />
+    <Property Name="ReExportFilename" Type="nvarchar(max)" />
+    <Property Name="account1_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account2_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account3_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="Account4_Status" Type="int" />
+    <Property Name="Account4_ExportDate" Type="datetime" />
+    <Property Name="Account4_ReExport" Type="int" />
+    <Property Name="Account4_FileName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UKOmnimark.dbo.tbl_Jewellery' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Jewellery">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ExportAllStatus" Type="int" />
+    <Property Name="ImportFromNonPrime" Type="int" />
+    <Property Name="Account1_Status" Type="int" />
+    <Property Name="Account1_ExportDate" Type="datetime" />
+    <Property Name="Account1_ReExport" Type="int" />
+    <Property Name="Account1_FileName" Type="nvarchar(max)" />
+    <Property Name="Account2_Status" Type="int" />
+    <Property Name="Account2_ExportDate" Type="datetime" />
+    <Property Name="Account2_ReExport" Type="int" />
+    <Property Name="Account2_FileName" Type="nvarchar(max)" />
+    <Property Name="Account3_Status" Type="int" />
+    <Property Name="Account3_ExportDate" Type="datetime" />
+    <Property Name="Account3_ReExport" Type="int" />
+    <Property Name="Account3_FileName" Type="nvarchar(max)" />
+    <Property Name="CanadaProhibited" Type="int" Nullable="false" />
+    <Property Name="ForceExport" Type="int" Nullable="false" />
+    <Property Name="ReExportTimeStamp" Type="datetime" />
+    <Property Name="ReExportFilename" Type="nvarchar(max)" />
+    <Property Name="account1_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account2_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account3_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="Account4_Status" Type="int" />
+    <Property Name="Account4_ExportDate" Type="datetime" />
+    <Property Name="Account4_ReExport" Type="int" />
+    <Property Name="Account4_FileName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UKOmnimark.dbo.tbl_Sports' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Sports">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ImportFromNonPrime" Type="int" />
+    <Property Name="ExportAllStatus" Type="int" />
+    <Property Name="Account1_Status" Type="int" />
+    <Property Name="Account1_ExportDate" Type="datetime" />
+    <Property Name="Account1_ReExport" Type="int" />
+    <Property Name="Account1_FileName" Type="nvarchar(max)" />
+    <Property Name="Account2_Status" Type="int" />
+    <Property Name="Account2_ExportDate" Type="datetime" />
+    <Property Name="Account2_ReExport" Type="int" />
+    <Property Name="Account2_FileName" Type="nvarchar(max)" />
+    <Property Name="Account3_Status" Type="int" />
+    <Property Name="Account3_ExportDate" Type="datetime" />
+    <Property Name="Account3_ReExport" Type="int" />
+    <Property Name="Account3_FileName" Type="nvarchar(max)" />
+    <Property Name="ForceExport" Type="int" Nullable="false" />
+    <Property Name="CanadaProhibited" Type="int" Nullable="false" />
+    <Property Name="ReExportTimeStamp" Type="datetime" />
+    <Property Name="ReExportFilename" Type="nvarchar(max)" />
+    <Property Name="account1_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account2_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account3_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="Account4_Status" Type="int" />
+    <Property Name="Account4_ExportDate" Type="datetime" />
+    <Property Name="Account4_ReExport" Type="int" />
+    <Property Name="Account4_FileName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UKOmnimark.dbo.tbl_Toys' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Toys">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="LargeImageURL" Type="nvarchar(max)" />
+    <Property Name="MediumImageURL" Type="nvarchar(max)" />
+    <Property Name="SmallImageURL" Type="nvarchar(max)" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ImportFromNonPrime" Type="int" />
+    <Property Name="ExportAllStatus" Type="int" />
+    <Property Name="Account1_Status" Type="int" />
+    <Property Name="Account1_ExportDate" Type="datetime" />
+    <Property Name="Account1_ReExport" Type="int" />
+    <Property Name="Account1_FileName" Type="nvarchar(max)" />
+    <Property Name="Account2_Status" Type="int" />
+    <Property Name="Account2_ExportDate" Type="datetime" />
+    <Property Name="Account2_ReExport" Type="int" />
+    <Property Name="Account2_FileName" Type="nvarchar(max)" />
+    <Property Name="Account3_Status" Type="int" />
+    <Property Name="Account3_ExportDate" Type="datetime" />
+    <Property Name="Account3_ReExport" Type="int" />
+    <Property Name="Account3_FileName" Type="nvarchar(max)" />
+    <Property Name="CanadaProhibited" Type="int" Nullable="false" />
+    <Property Name="ForceExport" Type="int" Nullable="false" />
+    <Property Name="ReExportTimeStamp" Type="datetime" />
+    <Property Name="ReExportFilename" Type="nvarchar(max)" />
+    <Property Name="account1_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account2_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account3_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="Account4_Status" Type="int" />
+    <Property Name="Account4_ExportDate" Type="datetime" />
+    <Property Name="Account4_ReExport" Type="int" />
+    <Property Name="Account4_FileName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UKOmnimark.dbo.tbl_Watches' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Watches">
+    <Key>
+      <PropertyRef Name="ASIN" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="UPC" Type="nvarchar(max)" />
+    <Property Name="ASIN" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" />
+    <Property Name="Amount" Type="nvarchar(max)" />
+    <Property Name="PackageQty" Type="nvarchar(max)" />
+    <Property Name="SalesPrice" Type="nvarchar(max)" />
+    <Property Name="Prime" Type="nvarchar(max)" />
+    <Property Name="SalesRank" Type="bigint" />
+    <Property Name="Manufacturer" Type="nvarchar(max)" />
+    <Property Name="Features1" Type="nvarchar(max)" />
+    <Property Name="Features2" Type="nvarchar(max)" />
+    <Property Name="Features3" Type="nvarchar(max)" />
+    <Property Name="Features4" Type="nvarchar(max)" />
+    <Property Name="TimeStamp" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="LargeImageUrl" Type="nvarchar(max)" />
+    <Property Name="MediumImageUrl" Type="nvarchar(max)" />
+    <Property Name="SmallImageUrl" Type="nvarchar(max)" />
+    <Property Name="Brand" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CurrencyCode" Type="nvarchar(max)" />
+    <Property Name="ExportDate" Type="datetime" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+    <Property Name="HeightUnits" Type="bigint" />
+    <Property Name="LengthUnits" Type="bigint" />
+    <Property Name="WeightUnits" Type="bigint" />
+    <Property Name="WidthUnits" Type="bigint" />
+    <Property Name="UK_Prohibited" Type="int" />
+    <Property Name="UpdatedTimeStamp" Type="datetime" />
+    <Property Name="Offers_New" Type="int" />
+    <Property Name="UpdatedSalesPrice" Type="nvarchar(max)" />
+    <Property Name="UpdatedSalesPriceTimeStamp" Type="datetime" />
+    <Property Name="Instock" Type="int" />
+    <Property Name="ReExportStatus" Type="int" />
+    <Property Name="Qty" Type="int" />
+    <Property Name="ExportAllStatus" Type="int" />
+    <Property Name="ImportFromNonPrime" Type="int" />
+    <Property Name="Account1_Status" Type="int" />
+    <Property Name="Account1_ExportDate" Type="datetime" />
+    <Property Name="Account1_ReExport" Type="int" />
+    <Property Name="Account1_FileName" Type="nvarchar(max)" />
+    <Property Name="Account2_Status" Type="int" />
+    <Property Name="Account2_ExportDate" Type="datetime" />
+    <Property Name="Account2_ReExport" Type="int" />
+    <Property Name="Account2_FileName" Type="nvarchar(max)" />
+    <Property Name="Account3_Status" Type="int" />
+    <Property Name="Account3_ExportDate" Type="datetime" />
+    <Property Name="Account3_ReExport" Type="int" />
+    <Property Name="Account3_FileName" Type="nvarchar(max)" />
+    <Property Name="CanadaProhibited" Type="int" Nullable="false" />
+    <Property Name="ForceExport" Type="int" Nullable="false" />
+    <Property Name="ReExportTimeStamp" Type="datetime" />
+    <Property Name="ReExportFilename" Type="nvarchar(max)" />
+    <Property Name="account1_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account2_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="account3_cmaxexport" Type="int" Nullable="false" />
+    <Property Name="Account4_Status" Type="int" />
+    <Property Name="Account4_ExportDate" Type="datetime" />
+    <Property Name="Account4_ReExport" Type="int" />
+    <Property Name="Account4_FileName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="UKOmnimarkModelStoreContainer">
+    <EntitySet Name="tbl_Baby" EntityType="Self.tbl_Baby" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tbl_Baby].[ID] AS [ID], 
+[tbl_Baby].[Title] AS [Title], 
+[tbl_Baby].[UPC] AS [UPC], 
+[tbl_Baby].[ASIN] AS [ASIN], 
+[tbl_Baby].[Category] AS [Category], 
+[tbl_Baby].[Amount] AS [Amount], 
+[tbl_Baby].[PackageQty] AS [PackageQty], 
+[tbl_Baby].[SalesPrice] AS [SalesPrice], 
+[tbl_Baby].[Prime] AS [Prime], 
+[tbl_Baby].[SalesRank] AS [SalesRank], 
+[tbl_Baby].[Manufacturer] AS [Manufacturer], 
+[tbl_Baby].[Features1] AS [Features1], 
+[tbl_Baby].[Features2] AS [Features2], 
+[tbl_Baby].[Features3] AS [Features3], 
+[tbl_Baby].[Features4] AS [Features4], 
+[tbl_Baby].[TimeStamp] AS [TimeStamp], 
+[tbl_Baby].[Status] AS [Status], 
+[tbl_Baby].[LargeImageUrl] AS [LargeImageUrl], 
+[tbl_Baby].[MediumImageUrl] AS [MediumImageUrl], 
+[tbl_Baby].[SmallImageUrl] AS [SmallImageUrl], 
+[tbl_Baby].[Brand] AS [Brand], 
+[tbl_Baby].[Description] AS [Description], 
+[tbl_Baby].[CurrencyCode] AS [CurrencyCode], 
+[tbl_Baby].[ExportDate] AS [ExportDate], 
+[tbl_Baby].[FileName] AS [FileName], 
+[tbl_Baby].[HeightUnits] AS [HeightUnits], 
+[tbl_Baby].[LengthUnits] AS [LengthUnits], 
+[tbl_Baby].[WeightUnits] AS [WeightUnits], 
+[tbl_Baby].[WidthUnits] AS [WidthUnits], 
+[tbl_Baby].[UK_Prohibited] AS [UK_Prohibited], 
+[tbl_Baby].[UpdatedTimeStamp] AS [UpdatedTimeStamp], 
+[tbl_Baby].[Offers_New] AS [Offers_New], 
+[tbl_Baby].[UpdatedSalesPrice] AS [UpdatedSalesPrice], 
+[tbl_Baby].[UpdatedSalesPriceTimeStamp] AS [UpdatedSalesPriceTimeStamp], 
+[tbl_Baby].[Instock] AS [Instock], 
+[tbl_Baby].[ReExportStatus] AS [ReExportStatus], 
+[tbl_Baby].[Qty] AS [Qty], 
+[tbl_Baby].[ExportAllStatus] AS [ExportAllStatus], 
+[tbl_Baby].[ImportFromNonPrime] AS [ImportFromNonPrime], 
+[tbl_Baby].[Account1_Status] AS [Account1_Status], 
+[tbl_Baby].[Account1_ExportDate] AS [Account1_ExportDate], 
+[tbl_Baby].[Account1_ReExport] AS [Account1_ReExport], 
+[tbl_Baby].[Account1_FileName] AS [Account1_FileName], 
+[tbl_Baby].[Account2_Status] AS [Account2_Status], 
+[tbl_Baby].[Account2_ExportDate] AS [Account2_ExportDate], 
+[tbl_Baby].[Account2_ReExport] AS [Account2_ReExport], 
+[tbl_Baby].[Account2_FileName] AS [Account2_FileName], 
+[tbl_Baby].[Account3_Status] AS [Account3_Status], 
+[tbl_Baby].[Account3_ExportDate] AS [Account3_ExportDate], 
+[tbl_Baby].[Account3_ReExport] AS [Account3_ReExport], 
+[tbl_Baby].[Account3_FileName] AS [Account3_FileName], 
+[tbl_Baby].[CanadaProhibited] AS [CanadaProhibited], 
+[tbl_Baby].[ForceExport] AS [ForceExport], 
+[tbl_Baby].[ReExportTimeStamp] AS [ReExportTimeStamp], 
+[tbl_Baby].[ReExportFilename] AS [ReExportFilename], 
+[tbl_Baby].[account1_cmaxexport] AS [account1_cmaxexport], 
+[tbl_Baby].[account2_cmaxexport] AS [account2_cmaxexport], 
+[tbl_Baby].[account3_cmaxexport] AS [account3_cmaxexport], 
+[tbl_Baby].[Account4_Status] AS [Account4_Status], 
+[tbl_Baby].[Account4_ExportDate] AS [Account4_ExportDate], 
+[tbl_Baby].[Account4_ReExport] AS [Account4_ReExport], 
+[tbl_Baby].[Account4_FileName] AS [Account4_FileName]
+FROM [dbo].[tbl_Baby] AS [tbl_Baby]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Beauty" EntityType="Self.tbl_Beauty" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tbl_Beauty].[ID] AS [ID], 
+[tbl_Beauty].[Title] AS [Title], 
+[tbl_Beauty].[UPC] AS [UPC], 
+[tbl_Beauty].[ASIN] AS [ASIN], 
+[tbl_Beauty].[Category] AS [Category], 
+[tbl_Beauty].[Amount] AS [Amount], 
+[tbl_Beauty].[PackageQty] AS [PackageQty], 
+[tbl_Beauty].[SalesPrice] AS [SalesPrice], 
+[tbl_Beauty].[Prime] AS [Prime], 
+[tbl_Beauty].[SalesRank] AS [SalesRank], 
+[tbl_Beauty].[Manufacturer] AS [Manufacturer], 
+[tbl_Beauty].[Features1] AS [Features1], 
+[tbl_Beauty].[Features2] AS [Features2], 
+[tbl_Beauty].[Features3] AS [Features3], 
+[tbl_Beauty].[Features4] AS [Features4], 
+[tbl_Beauty].[TimeStamp] AS [TimeStamp], 
+[tbl_Beauty].[Status] AS [Status], 
+[tbl_Beauty].[LargeImageUrl] AS [LargeImageUrl], 
+[tbl_Beauty].[MediumImageUrl] AS [MediumImageUrl], 
+[tbl_Beauty].[SmallImageUrl] AS [SmallImageUrl], 
+[tbl_Beauty].[Brand] AS [Brand], 
+[tbl_Beauty].[Description] AS [Description], 
+[tbl_Beauty].[CurrencyCode] AS [CurrencyCode], 
+[tbl_Beauty].[ExportDate] AS [ExportDate], 
+[tbl_Beauty].[FileName] AS [FileName], 
+[tbl_Beauty].[HeightUnits] AS [HeightUnits], 
+[tbl_Beauty].[LengthUnits] AS [LengthUnits], 
+[tbl_Beauty].[WeightUnits] AS [WeightUnits], 
+[tbl_Beauty].[WidthUnits] AS [WidthUnits], 
+[tbl_Beauty].[UK_Prohibited] AS [UK_Prohibited], 
+[tbl_Beauty].[UpdatedTimeStamp] AS [UpdatedTimeStamp], 
+[tbl_Beauty].[Offers_New] AS [Offers_New], 
+[tbl_Beauty].[UpdatedSalesPrice] AS [UpdatedSalesPrice], 
+[tbl_Beauty].[UpdatedSalesPriceTimeStamp] AS [UpdatedSalesPriceTimeStamp], 
+[tbl_Beauty].[Instock] AS [Instock], 
+[tbl_Beauty].[ReExportStatus] AS [ReExportStatus], 
+[tbl_Beauty].[Qty] AS [Qty], 
+[tbl_Beauty].[ExportAllStatus] AS [ExportAllStatus], 
+[tbl_Beauty].[ImportFromNonPrime] AS [ImportFromNonPrime], 
+[tbl_Beauty].[Account1_Status] AS [Account1_Status], 
+[tbl_Beauty].[Account1_ExportDate] AS [Account1_ExportDate], 
+[tbl_Beauty].[Account1_ReExport] AS [Account1_ReExport], 
+[tbl_Beauty].[Account1_FileName] AS [Account1_FileName], 
+[tbl_Beauty].[Account2_Status] AS [Account2_Status], 
+[tbl_Beauty].[Account2_ExportDate] AS [Account2_ExportDate], 
+[tbl_Beauty].[Account2_ReExport] AS [Account2_ReExport], 
+[tbl_Beauty].[Account2_FileName] AS [Account2_FileName], 
+[tbl_Beauty].[Account3_Status] AS [Account3_Status], 
+[tbl_Beauty].[Account3_ExportDate] AS [Account3_ExportDate], 
+[tbl_Beauty].[Account3_ReExport] AS [Account3_ReExport], 
+[tbl_Beauty].[Account3_FileName] AS [Account3_FileName], 
+[tbl_Beauty].[CanadaProhibited] AS [CanadaProhibited], 
+[tbl_Beauty].[ForceExport] AS [ForceExport], 
+[tbl_Beauty].[ReExportTimeStamp] AS [ReExportTimeStamp], 
+[tbl_Beauty].[ReExportFilename] AS [ReExportFilename], 
+[tbl_Beauty].[account1_cmaxexport] AS [account1_cmaxexport], 
+[tbl_Beauty].[account2_cmaxexport] AS [account2_cmaxexport], 
+[tbl_Beauty].[account3_cmaxexport] AS [account3_cmaxexport], 
+[tbl_Beauty].[Account4_Status] AS [Account4_Status], 
+[tbl_Beauty].[Account4_ExportDate] AS [Account4_ExportDate], 
+[tbl_Beauty].[Account4_ReExport] AS [Account4_ReExport], 
+[tbl_Beauty].[Account4_FileName] AS [Account4_FileName]
+FROM [dbo].[tbl_Beauty] AS [tbl_Beauty]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Jewellery" EntityType="Self.tbl_Jewellery" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tbl_Jewellery].[ID] AS [ID], 
+[tbl_Jewellery].[Title] AS [Title], 
+[tbl_Jewellery].[UPC] AS [UPC], 
+[tbl_Jewellery].[ASIN] AS [ASIN], 
+[tbl_Jewellery].[Category] AS [Category], 
+[tbl_Jewellery].[Amount] AS [Amount], 
+[tbl_Jewellery].[PackageQty] AS [PackageQty], 
+[tbl_Jewellery].[SalesPrice] AS [SalesPrice], 
+[tbl_Jewellery].[Prime] AS [Prime], 
+[tbl_Jewellery].[SalesRank] AS [SalesRank], 
+[tbl_Jewellery].[Manufacturer] AS [Manufacturer], 
+[tbl_Jewellery].[Features1] AS [Features1], 
+[tbl_Jewellery].[Features2] AS [Features2], 
+[tbl_Jewellery].[Features3] AS [Features3], 
+[tbl_Jewellery].[Features4] AS [Features4], 
+[tbl_Jewellery].[TimeStamp] AS [TimeStamp], 
+[tbl_Jewellery].[Status] AS [Status], 
+[tbl_Jewellery].[LargeImageUrl] AS [LargeImageUrl], 
+[tbl_Jewellery].[MediumImageUrl] AS [MediumImageUrl], 
+[tbl_Jewellery].[SmallImageUrl] AS [SmallImageUrl], 
+[tbl_Jewellery].[Brand] AS [Brand], 
+[tbl_Jewellery].[Description] AS [Description], 
+[tbl_Jewellery].[CurrencyCode] AS [CurrencyCode], 
+[tbl_Jewellery].[ExportDate] AS [ExportDate], 
+[tbl_Jewellery].[FileName] AS [FileName], 
+[tbl_Jewellery].[HeightUnits] AS [HeightUnits], 
+[tbl_Jewellery].[LengthUnits] AS [LengthUnits], 
+[tbl_Jewellery].[WeightUnits] AS [WeightUnits], 
+[tbl_Jewellery].[WidthUnits] AS [WidthUnits], 
+[tbl_Jewellery].[UK_Prohibited] AS [UK_Prohibited], 
+[tbl_Jewellery].[UpdatedTimeStamp] AS [UpdatedTimeStamp], 
+[tbl_Jewellery].[Offers_New] AS [Offers_New], 
+[tbl_Jewellery].[UpdatedSalesPrice] AS [UpdatedSalesPrice], 
+[tbl_Jewellery].[UpdatedSalesPriceTimeStamp] AS [UpdatedSalesPriceTimeStamp], 
+[tbl_Jewellery].[Instock] AS [Instock], 
+[tbl_Jewellery].[ReExportStatus] AS [ReExportStatus], 
+[tbl_Jewellery].[Qty] AS [Qty], 
+[tbl_Jewellery].[ExportAllStatus] AS [ExportAllStatus], 
+[tbl_Jewellery].[ImportFromNonPrime] AS [ImportFromNonPrime], 
+[tbl_Jewellery].[Account1_Status] AS [Account1_Status], 
+[tbl_Jewellery].[Account1_ExportDate] AS [Account1_ExportDate], 
+[tbl_Jewellery].[Account1_ReExport] AS [Account1_ReExport], 
+[tbl_Jewellery].[Account1_FileName] AS [Account1_FileName], 
+[tbl_Jewellery].[Account2_Status] AS [Account2_Status], 
+[tbl_Jewellery].[Account2_ExportDate] AS [Account2_ExportDate], 
+[tbl_Jewellery].[Account2_ReExport] AS [Account2_ReExport], 
+[tbl_Jewellery].[Account2_FileName] AS [Account2_FileName], 
+[tbl_Jewellery].[Account3_Status] AS [Account3_Status], 
+[tbl_Jewellery].[Account3_ExportDate] AS [Account3_ExportDate], 
+[tbl_Jewellery].[Account3_ReExport] AS [Account3_ReExport], 
+[tbl_Jewellery].[Account3_FileName] AS [Account3_FileName], 
+[tbl_Jewellery].[CanadaProhibited] AS [CanadaProhibited], 
+[tbl_Jewellery].[ForceExport] AS [ForceExport], 
+[tbl_Jewellery].[ReExportTimeStamp] AS [ReExportTimeStamp], 
+[tbl_Jewellery].[ReExportFilename] AS [ReExportFilename], 
+[tbl_Jewellery].[account1_cmaxexport] AS [account1_cmaxexport], 
+[tbl_Jewellery].[account2_cmaxexport] AS [account2_cmaxexport], 
+[tbl_Jewellery].[account3_cmaxexport] AS [account3_cmaxexport], 
+[tbl_Jewellery].[Account4_Status] AS [Account4_Status], 
+[tbl_Jewellery].[Account4_ExportDate] AS [Account4_ExportDate], 
+[tbl_Jewellery].[Account4_ReExport] AS [Account4_ReExport], 
+[tbl_Jewellery].[Account4_FileName] AS [Account4_FileName]
+FROM [dbo].[tbl_Jewellery] AS [tbl_Jewellery]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Sports" EntityType="Self.tbl_Sports" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tbl_Sports].[ID] AS [ID], 
+[tbl_Sports].[Title] AS [Title], 
+[tbl_Sports].[UPC] AS [UPC], 
+[tbl_Sports].[ASIN] AS [ASIN], 
+[tbl_Sports].[Category] AS [Category], 
+[tbl_Sports].[Amount] AS [Amount], 
+[tbl_Sports].[PackageQty] AS [PackageQty], 
+[tbl_Sports].[SalesPrice] AS [SalesPrice], 
+[tbl_Sports].[Prime] AS [Prime], 
+[tbl_Sports].[SalesRank] AS [SalesRank], 
+[tbl_Sports].[Manufacturer] AS [Manufacturer], 
+[tbl_Sports].[Features1] AS [Features1], 
+[tbl_Sports].[Features2] AS [Features2], 
+[tbl_Sports].[Features3] AS [Features3], 
+[tbl_Sports].[Features4] AS [Features4], 
+[tbl_Sports].[TimeStamp] AS [TimeStamp], 
+[tbl_Sports].[Status] AS [Status], 
+[tbl_Sports].[LargeImageUrl] AS [LargeImageUrl], 
+[tbl_Sports].[MediumImageUrl] AS [MediumImageUrl], 
+[tbl_Sports].[SmallImageUrl] AS [SmallImageUrl], 
+[tbl_Sports].[Brand] AS [Brand], 
+[tbl_Sports].[Description] AS [Description], 
+[tbl_Sports].[CurrencyCode] AS [CurrencyCode], 
+[tbl_Sports].[ExportDate] AS [ExportDate], 
+[tbl_Sports].[FileName] AS [FileName], 
+[tbl_Sports].[HeightUnits] AS [HeightUnits], 
+[tbl_Sports].[LengthUnits] AS [LengthUnits], 
+[tbl_Sports].[WeightUnits] AS [WeightUnits], 
+[tbl_Sports].[WidthUnits] AS [WidthUnits], 
+[tbl_Sports].[UK_Prohibited] AS [UK_Prohibited], 
+[tbl_Sports].[UpdatedTimeStamp] AS [UpdatedTimeStamp], 
+[tbl_Sports].[Offers_New] AS [Offers_New], 
+[tbl_Sports].[UpdatedSalesPrice] AS [UpdatedSalesPrice], 
+[tbl_Sports].[UpdatedSalesPriceTimeStamp] AS [UpdatedSalesPriceTimeStamp], 
+[tbl_Sports].[Instock] AS [Instock], 
+[tbl_Sports].[ReExportStatus] AS [ReExportStatus], 
+[tbl_Sports].[Qty] AS [Qty], 
+[tbl_Sports].[ImportFromNonPrime] AS [ImportFromNonPrime], 
+[tbl_Sports].[ExportAllStatus] AS [ExportAllStatus], 
+[tbl_Sports].[Account1_Status] AS [Account1_Status], 
+[tbl_Sports].[Account1_ExportDate] AS [Account1_ExportDate], 
+[tbl_Sports].[Account1_ReExport] AS [Account1_ReExport], 
+[tbl_Sports].[Account1_FileName] AS [Account1_FileName], 
+[tbl_Sports].[Account2_Status] AS [Account2_Status], 
+[tbl_Sports].[Account2_ExportDate] AS [Account2_ExportDate], 
+[tbl_Sports].[Account2_ReExport] AS [Account2_ReExport], 
+[tbl_Sports].[Account2_FileName] AS [Account2_FileName], 
+[tbl_Sports].[Account3_Status] AS [Account3_Status], 
+[tbl_Sports].[Account3_ExportDate] AS [Account3_ExportDate], 
+[tbl_Sports].[Account3_ReExport] AS [Account3_ReExport], 
+[tbl_Sports].[Account3_FileName] AS [Account3_FileName], 
+[tbl_Sports].[ForceExport] AS [ForceExport], 
+[tbl_Sports].[CanadaProhibited] AS [CanadaProhibited], 
+[tbl_Sports].[ReExportTimeStamp] AS [ReExportTimeStamp], 
+[tbl_Sports].[ReExportFilename] AS [ReExportFilename], 
+[tbl_Sports].[account1_cmaxexport] AS [account1_cmaxexport], 
+[tbl_Sports].[account2_cmaxexport] AS [account2_cmaxexport], 
+[tbl_Sports].[account3_cmaxexport] AS [account3_cmaxexport], 
+[tbl_Sports].[Account4_Status] AS [Account4_Status], 
+[tbl_Sports].[Account4_ExportDate] AS [Account4_ExportDate], 
+[tbl_Sports].[Account4_ReExport] AS [Account4_ReExport], 
+[tbl_Sports].[Account4_FileName] AS [Account4_FileName]
+FROM [dbo].[tbl_Sports] AS [tbl_Sports]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Toys" EntityType="Self.tbl_Toys" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tbl_Toys].[Count] AS [Count], 
+[tbl_Toys].[ID] AS [ID], 
+[tbl_Toys].[Title] AS [Title], 
+[tbl_Toys].[UPC] AS [UPC], 
+[tbl_Toys].[ASIN] AS [ASIN], 
+[tbl_Toys].[Category] AS [Category], 
+[tbl_Toys].[SalesPrice] AS [SalesPrice], 
+[tbl_Toys].[Brand] AS [Brand], 
+[tbl_Toys].[Description] AS [Description], 
+[tbl_Toys].[PackageQty] AS [PackageQty], 
+[tbl_Toys].[Amount] AS [Amount], 
+[tbl_Toys].[Prime] AS [Prime], 
+[tbl_Toys].[SalesRank] AS [SalesRank], 
+[tbl_Toys].[LargeImageURL] AS [LargeImageURL], 
+[tbl_Toys].[MediumImageURL] AS [MediumImageURL], 
+[tbl_Toys].[SmallImageURL] AS [SmallImageURL], 
+[tbl_Toys].[Manufacturer] AS [Manufacturer], 
+[tbl_Toys].[Features1] AS [Features1], 
+[tbl_Toys].[Features2] AS [Features2], 
+[tbl_Toys].[Features3] AS [Features3], 
+[tbl_Toys].[Features4] AS [Features4], 
+[tbl_Toys].[TimeStamp] AS [TimeStamp], 
+[tbl_Toys].[Status] AS [Status], 
+[tbl_Toys].[CurrencyCode] AS [CurrencyCode], 
+[tbl_Toys].[ExportDate] AS [ExportDate], 
+[tbl_Toys].[FileName] AS [FileName], 
+[tbl_Toys].[HeightUnits] AS [HeightUnits], 
+[tbl_Toys].[LengthUnits] AS [LengthUnits], 
+[tbl_Toys].[WeightUnits] AS [WeightUnits], 
+[tbl_Toys].[WidthUnits] AS [WidthUnits], 
+[tbl_Toys].[UK_Prohibited] AS [UK_Prohibited], 
+[tbl_Toys].[UpdatedTimeStamp] AS [UpdatedTimeStamp], 
+[tbl_Toys].[Offers_New] AS [Offers_New], 
+[tbl_Toys].[UpdatedSalesPrice] AS [UpdatedSalesPrice], 
+[tbl_Toys].[UpdatedSalesPriceTimeStamp] AS [UpdatedSalesPriceTimeStamp], 
+[tbl_Toys].[Instock] AS [Instock], 
+[tbl_Toys].[ReExportStatus] AS [ReExportStatus], 
+[tbl_Toys].[Qty] AS [Qty], 
+[tbl_Toys].[ImportFromNonPrime] AS [ImportFromNonPrime], 
+[tbl_Toys].[ExportAllStatus] AS [ExportAllStatus], 
+[tbl_Toys].[Account1_Status] AS [Account1_Status], 
+[tbl_Toys].[Account1_ExportDate] AS [Account1_ExportDate], 
+[tbl_Toys].[Account1_ReExport] AS [Account1_ReExport], 
+[tbl_Toys].[Account1_FileName] AS [Account1_FileName], 
+[tbl_Toys].[Account2_Status] AS [Account2_Status], 
+[tbl_Toys].[Account2_ExportDate] AS [Account2_ExportDate], 
+[tbl_Toys].[Account2_ReExport] AS [Account2_ReExport], 
+[tbl_Toys].[Account2_FileName] AS [Account2_FileName], 
+[tbl_Toys].[Account3_Status] AS [Account3_Status], 
+[tbl_Toys].[Account3_ExportDate] AS [Account3_ExportDate], 
+[tbl_Toys].[Account3_ReExport] AS [Account3_ReExport], 
+[tbl_Toys].[Account3_FileName] AS [Account3_FileName], 
+[tbl_Toys].[CanadaProhibited] AS [CanadaProhibited], 
+[tbl_Toys].[ForceExport] AS [ForceExport], 
+[tbl_Toys].[ReExportTimeStamp] AS [ReExportTimeStamp], 
+[tbl_Toys].[ReExportFilename] AS [ReExportFilename], 
+[tbl_Toys].[account1_cmaxexport] AS [account1_cmaxexport], 
+[tbl_Toys].[account2_cmaxexport] AS [account2_cmaxexport], 
+[tbl_Toys].[account3_cmaxexport] AS [account3_cmaxexport], 
+[tbl_Toys].[Account4_Status] AS [Account4_Status], 
+[tbl_Toys].[Account4_ExportDate] AS [Account4_ExportDate], 
+[tbl_Toys].[Account4_ReExport] AS [Account4_ReExport], 
+[tbl_Toys].[Account4_FileName] AS [Account4_FileName]
+FROM [dbo].[tbl_Toys] AS [tbl_Toys]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Watches" EntityType="Self.tbl_Watches" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[tbl_Watches].[ID] AS [ID], 
+[tbl_Watches].[Title] AS [Title], 
+[tbl_Watches].[UPC] AS [UPC], 
+[tbl_Watches].[ASIN] AS [ASIN], 
+[tbl_Watches].[Category] AS [Category], 
+[tbl_Watches].[Amount] AS [Amount], 
+[tbl_Watches].[PackageQty] AS [PackageQty], 
+[tbl_Watches].[SalesPrice] AS [SalesPrice], 
+[tbl_Watches].[Prime] AS [Prime], 
+[tbl_Watches].[SalesRank] AS [SalesRank], 
+[tbl_Watches].[Manufacturer] AS [Manufacturer], 
+[tbl_Watches].[Features1] AS [Features1], 
+[tbl_Watches].[Features2] AS [Features2], 
+[tbl_Watches].[Features3] AS [Features3], 
+[tbl_Watches].[Features4] AS [Features4], 
+[tbl_Watches].[TimeStamp] AS [TimeStamp], 
+[tbl_Watches].[Status] AS [Status], 
+[tbl_Watches].[LargeImageUrl] AS [LargeImageUrl], 
+[tbl_Watches].[MediumImageUrl] AS [MediumImageUrl], 
+[tbl_Watches].[SmallImageUrl] AS [SmallImageUrl], 
+[tbl_Watches].[Brand] AS [Brand], 
+[tbl_Watches].[Description] AS [Description], 
+[tbl_Watches].[CurrencyCode] AS [CurrencyCode], 
+[tbl_Watches].[ExportDate] AS [ExportDate], 
+[tbl_Watches].[FileName] AS [FileName], 
+[tbl_Watches].[HeightUnits] AS [HeightUnits], 
+[tbl_Watches].[LengthUnits] AS [LengthUnits], 
+[tbl_Watches].[WeightUnits] AS [WeightUnits], 
+[tbl_Watches].[WidthUnits] AS [WidthUnits], 
+[tbl_Watches].[UK_Prohibited] AS [UK_Prohibited], 
+[tbl_Watches].[UpdatedTimeStamp] AS [UpdatedTimeStamp], 
+[tbl_Watches].[Offers_New] AS [Offers_New], 
+[tbl_Watches].[UpdatedSalesPrice] AS [UpdatedSalesPrice], 
+[tbl_Watches].[UpdatedSalesPriceTimeStamp] AS [UpdatedSalesPriceTimeStamp], 
+[tbl_Watches].[Instock] AS [Instock], 
+[tbl_Watches].[ReExportStatus] AS [ReExportStatus], 
+[tbl_Watches].[Qty] AS [Qty], 
+[tbl_Watches].[ExportAllStatus] AS [ExportAllStatus], 
+[tbl_Watches].[ImportFromNonPrime] AS [ImportFromNonPrime], 
+[tbl_Watches].[Account1_Status] AS [Account1_Status], 
+[tbl_Watches].[Account1_ExportDate] AS [Account1_ExportDate], 
+[tbl_Watches].[Account1_ReExport] AS [Account1_ReExport], 
+[tbl_Watches].[Account1_FileName] AS [Account1_FileName], 
+[tbl_Watches].[Account2_Status] AS [Account2_Status], 
+[tbl_Watches].[Account2_ExportDate] AS [Account2_ExportDate], 
+[tbl_Watches].[Account2_ReExport] AS [Account2_ReExport], 
+[tbl_Watches].[Account2_FileName] AS [Account2_FileName], 
+[tbl_Watches].[Account3_Status] AS [Account3_Status], 
+[tbl_Watches].[Account3_ExportDate] AS [Account3_ExportDate], 
+[tbl_Watches].[Account3_ReExport] AS [Account3_ReExport], 
+[tbl_Watches].[Account3_FileName] AS [Account3_FileName], 
+[tbl_Watches].[CanadaProhibited] AS [CanadaProhibited], 
+[tbl_Watches].[ForceExport] AS [ForceExport], 
+[tbl_Watches].[ReExportTimeStamp] AS [ReExportTimeStamp], 
+[tbl_Watches].[ReExportFilename] AS [ReExportFilename], 
+[tbl_Watches].[account1_cmaxexport] AS [account1_cmaxexport], 
+[tbl_Watches].[account2_cmaxexport] AS [account2_cmaxexport], 
+[tbl_Watches].[account3_cmaxexport] AS [account3_cmaxexport], 
+[tbl_Watches].[Account4_Status] AS [Account4_Status], 
+[tbl_Watches].[Account4_ExportDate] AS [Account4_ExportDate], 
+[tbl_Watches].[Account4_ReExport] AS [Account4_ReExport], 
+[tbl_Watches].[Account4_FileName] AS [Account4_FileName]
+FROM [dbo].[tbl_Watches] AS [tbl_Watches]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

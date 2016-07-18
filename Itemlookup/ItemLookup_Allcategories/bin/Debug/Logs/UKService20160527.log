@@ -1,0 +1,110 @@
+043905: Main Executing.....
+043905: 
+043905: Service Starting...
+043905: Spawning ItemLookup thread...
+043950: Issue in Selecting Values from Watches Table...System.Data.EntityException: The underlying provider failed on Open. ---> System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   at System.Data.EntityClient.EntityConnection.Open()
+   at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Data.Entity.Internal.Linq.InternalQuery`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinToysNotPrime() in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 601
+043950: Issue in Selecting Values from Watches Table...System.Data.EntityException: The underlying provider failed on Open. ---> System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   at System.Data.EntityClient.EntityConnection.Open()
+   at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Data.Entity.Internal.Linq.InternalQuery`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinHomeAndKitchen() in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 637
+043952: Issue in Selecting Values from Toys Table...System.Data.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.) ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   at System.Data.EntityClient.EntityConnection.Open()
+   at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Data.Entity.Internal.Linq.InternalQuery`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinToys() in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 530
+044050: Amazon Throttling EXCEPTION: 
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat, Int32 position) in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 61
+044050: Amazon Throttling EXCEPTION: 
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat, Int32 position) in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 61
+053125: Main Executing.....
+053125: 
+053125: Service Starting...
+053125: Spawning ItemLookup thread...
+054346: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat, Int32 position) in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 61
+061233: Main Executing.....
+061233: 
+061233: Service Starting...
+061233: Spawning ItemLookup thread...
+062202: Main Executing.....
+062202: 
+062202: Service Starting...
+062202: Spawning ItemLookup thread...
+062240: Amazon Throttling EXCEPTION: The AWS Access Key Id you provided does not exist in our records.
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 61
+062252: Issue in Selecting Values from Baby Table...MarketplaceWebServiceProducts.MarketplaceWebServiceProductsException: The AWS Access Key Id you provided does not exist in our records. ---> MWSClientCsRuntime.MwsException: The AWS Access Key Id you provided does not exist in our records.
+   at MWSClientCsRuntime.MwsAQCall.invoke()
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   --- End of inner exception stack trace ---
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 121
+   at OmniUKClass.BLCode.UKItemSearch.UpdateAsinBaby() in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 477
+062607: Main Executing.....
+062607: 
+062607: Service Starting...
+062607: Spawning ItemLookup thread...
+063420: Amazon Throttling EXCEPTION: Request is throttled
+   at MWSClientCsRuntime.MwsConnection.Call[T](IMwsRequestType`1 type, IMwsObject requestData)
+   at MarketplaceWebServiceProducts.MarketplaceWebServiceProductsClient.GetLowestOfferListingsForASIN(GetLowestOfferListingsForASINRequest request)
+   at OmniUKClass.BLCode.UKItemSearch.ItemLookup(IEnumerable`1 lstASIN, String cat) in d:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\BLCode\UKItemSearch.cs:line 61

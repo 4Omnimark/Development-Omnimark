@@ -1,0 +1,28 @@
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MWS_Service.exe.config
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MWS_Service.exe
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MWS_Service.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MarketplaceWebService.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MarketplaceWebService.Samples.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\UkListing.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\OnmimarkAmazonWeb.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\com.ddmresources.EnumMetadata.Core.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\StartbuttonWeb.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\OmnimarkAmazonLibrary.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\System.Web.Mvc.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\Newtonsoft.Json.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\FBAInventoryServiceMWS.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\eBay.Service.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\StartbuttonCore2013.dll
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MarketplaceWebService.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\MarketplaceWebService.Samples.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\UkListing.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\OnmimarkAmazonWeb.pdb
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\bin\Release\System.Web.Mvc.xml
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\obj\x86\Release\MWS_Service.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\obj\x86\Release\MWS_Service.csproj.GenerateResource.Cache
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\obj\x86\Release\MWS_Service.exe
+D:\Omnimark Project\ReExport\MWS_SERVICE_21_May_2016\MWS_SERVICE\UKservice\MWS_Upload_Service\obj\x86\Release\MWS_Service.pdb
+D:\Omnimark Projects Github\ReExport-Service\UKservice\MWS_Upload_Service\bin\Release\MWS_Service.exe.config
+D:\Omnimark Projects Github\ReExport-Service\UKservice\MWS_Upload_Service\obj\x86\Release\MWS_Service.exe
+D:\Omnimark Projects Github\ReExport-Service\UKservice\MWS_Upload_Service\obj\x86\Release\MWS_Service.pdb

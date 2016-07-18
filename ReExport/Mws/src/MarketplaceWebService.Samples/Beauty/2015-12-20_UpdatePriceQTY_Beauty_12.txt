@@ -1,0 +1,9 @@
+sku	price	minimum-seller-allowed-price	maximum-seller-allowed-price	quantity	leadtime-to-ship
+"B0018IQTEO"	"49.99"	"39.99"	"59.99"	"1"	"5"
+"B004VSLG1Y"	"59.99"	"49.99"	"69.99"	"1"	"5"
+"B005CPZJ0E"	"49.99"	"39.99"	"59.99"	"1"	"5"
+"B00708DK6Q"	"59.99"	"49.99"	"69.99"	"1"	"5"
+"B00FNQRCS4"	"69.99"	"59.99"	"79.99"	"1"	"5"
+"B00HB2JPOW"	"49.99"	"39.99"	"59.99"	"1"	"5"
+"B00I6CS02O"	"69.99"	"59.99"	"79.99"	"0"	"5"
+"B016USUAX2"	"59.99"	"49.99"	"69.99"	"0"	"5"

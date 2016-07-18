@@ -1,0 +1,438 @@
+E:\UKService\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\UKService\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\MarketplaceWebService.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceOrders.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceProducts.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\wix.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\PayPalMerchantSDK.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\libmspackn.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\JHSoftware.DnsClient.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\TidyNet.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\Yahoo.Yui.Compressor.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\PayPalCoreSDK.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\log4net.dll
+E:\UKService\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\MarketplaceWebService.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceOrders.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceProducts.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\libmspackn.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\JHSoftware.DnsClient.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\TidyNet.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.pdb
+E:\UKService\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\UKService\UKservice\OmniUKClass\bin\Debug\log4net.xml
+E:\UKService\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\UKService\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\MarketplaceWebService.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceOrders.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceProducts.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\wix.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\PayPalMerchantSDK.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\libmspackn.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\JHSoftware.DnsClient.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\TidyNet.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\Yahoo.Yui.Compressor.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\PayPalCoreSDK.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\log4net.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\MarketplaceWebService.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceOrders.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceProducts.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\libmspackn.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\JHSoftware.DnsClient.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\TidyNet.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.pdb
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\bin\Debug\log4net.xml
+E:\ItemLookupUkservice\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\ItemLookupUkservice\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\ItemLookupUkservice\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\MarketplaceWebService.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceOrders.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceProducts.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\wix.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\PayPalMerchantSDK.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\libmspackn.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\JHSoftware.DnsClient.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\TidyNet.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\Yahoo.Yui.Compressor.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\PayPalCoreSDK.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\log4net.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\MarketplaceWebService.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceOrders.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\MarketplaceWebServiceProducts.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\libmspackn.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\JHSoftware.DnsClient.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\TidyNet.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.pdb
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\log4net.xml
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\SERVICES\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\salman\SERVICES\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\test\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\test\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\test\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\test\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\test\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\test\ToysItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\test\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\test\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\test\ToysItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\MWSClientCsRuntime-1.0.dll
+E:\NileBits\NileBitsProjects\21 Century web\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\MWSProducts_2011-10-01_v2015-09-01.dll
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+C:\Users\user\Downloads\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup(testing)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Karim\SportsItemLookup(testing)\SportsItemLookup(testing)\SportsItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\SportsItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\SportsItemLookup\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+D:\SportsItemLookup\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\SportsItemLookup - Copy (2)\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\SportsItemLookup - 21042016 with timer\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\SportsItemLookup - 25042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\UKOmnimark\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\new data\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\New Item lookup working\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\SportsItemLookup - 27042016 EF\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\EntityFramework.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\System.Web.Http.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\System.Net.Http.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\EntityFramework.xml
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\System.Web.Http.xml
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\System.Net.Http.xml
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\SportsItemLookup\03-05-2016\UKservice\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\03-05-2016\03-05-2016\ItemLookup_Allcategories\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\OmniUKClass.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\OmniUKClass.pdb
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\HtmlAgilityPack.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\StartbuttonCore.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\StartbuttonCore2013.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\StartbuttonWeb.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\com.ddmresources.EnumMetadata.Core.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\System.Web.Http.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\System.Net.Http.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\System.Net.Http.Formatting.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\System.Web.Http.xml
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\System.Net.Http.xml
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\Newtonsoft.Json.xml
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\bin\Debug\System.Net.Http.Formatting.xml
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\obj\Debug\OmniUKClass.dll
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\obj\Debug\OmniUKClass.pdb
+E:\Ram\ItemLookup_Allcategories\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Omnimark Project\Ramesh\ItemLookup_Allcategories-08-06-2016\ItemLookup_Allcategories-08-06-2016\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Omnimark Projects Github\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\bin\Debug\OmniUKClass.dll.config
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\bin\Debug\OmniUKClass.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\bin\Debug\OmniUKClass.pdb
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\bin\Debug\Newtonsoft.Json.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.csprojResolveAssemblyReference.cache
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.dll
+D:\Omnimark Project\Omnimark Restructuring\Development Omnimark\Itemlookup-Service\OmniUKClass\obj\Debug\OmniUKClass.pdb

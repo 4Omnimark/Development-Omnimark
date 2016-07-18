@@ -1,0 +1,2 @@
+sku	price	minimum-seller-allowed-price	maximum-seller-allowed-price	quantity	leadtime-to-ship
+"1553602056"	"122.54"	"112.54"	"132.54"	"1"	"5"

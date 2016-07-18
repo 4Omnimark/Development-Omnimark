@@ -1,0 +1,254 @@
+﻿Installing assembly 'E:\UKService\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\UKService\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = E:\UKService\UKservice\UKservice\bin\Debug\UKService.exe
+Installing service UkOmnimarkService...
+Service UkOmnimarkService has been successfully installed.
+Creating EventLog source UkOmnimarkService in log Application...
+Committing assembly 'E:\UKService\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\UKService\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = E:\UKService\UKservice\UKservice\bin\Debug\UKService.exe
+Uninstalling assembly 'E:\UKService\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\UKService\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = E:\UKService\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source UkOmnimarkService.
+Service UkOmnimarkService is being removed from the system...
+Service UkOmnimarkService was successfully removed from the system.
+Attempt to stop service UkOmnimarkService.
+Installing assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Installing service UK_Project_Sports_Itemlookup...
+Service UK_Project_Sports_Itemlookup has been successfully installed.
+Creating EventLog source UK_Project_Sports_Itemlookup in log Application...
+Installing service OmnimarkAmazonService...
+Service OmnimarkAmazonService has been successfully installed.
+Creating EventLog source OmnimarkAmazonService in log Application...
+Committing assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Service OmnimarkAmazonService is being removed from the system...
+Service OmnimarkAmazonService was successfully removed from the system.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup - 27042016 EF\UKservice\UKservice\bin\Debug\UKService.exe
+Removing EventLog source OmnimarkAmazonService.
+Warning: The source OmnimarkAmazonService is not registered on the local machine.
+Service OmnimarkAmazonService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source UK_Project_Itemlookup_Service.
+Warning: The source UK_Project_Itemlookup_Service is not registered on the local machine.
+Service UK_Project_Itemlookup_Service is being removed from the system...
+An exception occurred during the uninstallation of the OmnimarkAmazon.Service.Installer installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\SportsItemLookup\03-05-2016\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup\03-05-2016\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup\03-05-2016\UKservice\UKservice\bin\Debug\UKService.exe
+Installing service UK_Project_Itemlookup_Service...
+Service UK_Project_Itemlookup_Service has been successfully installed.
+Creating EventLog source UK_Project_Itemlookup_Service in log Application...
+Installing service OmnimarkAmazonService...
+Service OmnimarkAmazonService has been successfully installed.
+Creating EventLog source OmnimarkAmazonService in log Application...
+Committing assembly 'D:\SportsItemLookup\03-05-2016\UKservice\UKservice\bin\Debug\UKService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SportsItemLookup\03-05-2016\UKservice\UKservice\bin\Debug\UKService.InstallLog
+   assemblypath = D:\SportsItemLookup\03-05-2016\UKservice\UKservice\bin\Debug\UKService.exe

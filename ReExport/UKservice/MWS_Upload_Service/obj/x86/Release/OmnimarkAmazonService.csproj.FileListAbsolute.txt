@@ -1,0 +1,4 @@
+D:\decompile code\OmnimarkAmazonService\OmnimarkAmazonService\bin\Release\OmnimarkAmazonService.exe.config
+D:\decompile code\OmnimarkAmazonService\OmnimarkAmazonService\obj\x86\Release\OmnimarkAmazonService.csprojResolveAssemblyReference.cache
+D:\decompile code\OmnimarkAmazonService\OmnimarkAmazonService\obj\x86\Release\OmnimarkAmazon.Service.MyServiceInstallerProcess.resources
+D:\decompile code\OmnimarkAmazonService\OmnimarkAmazonService\obj\x86\Release\OmnimarkAmazonService.csproj.GenerateResource.Cache

@@ -1,0 +1,32 @@
+﻿Installing assembly 'E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.InstallLog
+   assemblypath = E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe assembly.
+Committing assembly 'E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.InstallLog
+   assemblypath = E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.InstallLog
+   assemblypath = E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\UKEXPORTFILES\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe assembly.
+Installing assembly 'E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.InstallLog
+   assemblypath = E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
+Installing service Amazon_Upload...
+Service Amazon_Upload has been successfully installed.
+Creating EventLog source Amazon_Upload in log Application...
+Committing assembly 'E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.InstallLog
+   assemblypath = E:\TestinMWS\Mws\src\MarketplaceWebService.Samples\bin\Debug\MarketplaceWebService.Samples.exe
