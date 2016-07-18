@@ -39,6 +39,7 @@ namespace OmnimarkAmazonWeb.Controllers
 
         public string ExportForUK(string sc, string cat, int flag)
         {
+            ConfigValues cv = new ConfigValues();
             string fname = "";
             ((IObjectContextAdapter)ukdb).ObjectContext.CommandTimeout = 1800;
             IEnumerable<tbl_Sports> Sdata = null;
@@ -68,12 +69,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     {
                         if (flag == 1)
                         {
-                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExport(cat, Sdata, sc, flag);
                         }
                         else if (flag == 2)
                         {
-                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExport(cat + "NotPrime", SdataNotPrime, sc, flag);
                         }
 
@@ -82,12 +83,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     {
                         if (flag == 1)
                         {
-                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExport(cat, Sdata, sc, flag);
                         }
                         else if (flag == 2)
                         {
-                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExport(cat + "NotPrime", SdataNotPrime, sc, flag);
                         }
                     }
@@ -95,12 +96,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     {
                         if (flag == 1)
                         {
-                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExport(cat, Sdata, sc, flag);
                         }
                         else if (flag == 2)
                         {
-                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExport(cat + "NotPrime", SdataNotPrime, sc, flag);
                         }
 
@@ -109,12 +110,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     {
                         if (flag == 1)
                         {
-                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                            Sdata = ukdb.tbl_Sports.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExportCanada(cat, Sdata, sc, flag);
                         }
                         else if (flag == 2)
                         {
-                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                            SdataNotPrime = ukdb.tbl_SportsNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                             fname = ReExportCanada(cat + "NotPrime", Sdata, sc, flag);
                         }
 
@@ -129,12 +130,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Tdata = ukdb.tbl_Toys.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                Tdata = ukdb.tbl_Toys.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat, Tdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat + "NotPrime", TdataNotPrime, sc, flag);
                             }
 
@@ -144,12 +145,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Tdata = ukdb.tbl_Toys.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                Tdata = ukdb.tbl_Toys.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat, Tdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat + "NotPrime", TdataNotPrime, sc, flag);
                             }
 
@@ -158,12 +159,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Tdata = ukdb.tbl_Toys.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                Tdata = ukdb.tbl_Toys.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat, Tdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat + "NotPrime", TdataNotPrime, sc, flag);
                             }
 
@@ -172,12 +173,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Tdata = ukdb.tbl_Toys.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                Tdata = ukdb.tbl_Toys.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExportCanada(cat, Tdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                TdataNotPrime = ukdb.tbl_ToysNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExportCanada(cat + "NotPrime", TdataNotPrime, sc, flag);
                             }
 
@@ -191,12 +192,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     //        {
                     //            if (flag == 1)
                     //            {
-                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExport(cat, Bdata, sc);
                     //            }
                     //            else if (flag == 2)
                     //            {
-                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x =>  (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x =>  (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExport(cat + "NotPrime", BdataNotPrime, sc);
                     //            }
 
@@ -205,12 +206,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     //        {
                     //            if (flag == 1)
                     //            {
-                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExport(cat, Bdata, sc);
                     //            }
                     //            else if (flag == 2)
                     //            {
-                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x =>  (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x =>  (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExport(cat + "NotPrime", BdataNotPrime, sc);
                     //            }
 
@@ -219,12 +220,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     //        {
                     //            if (flag == 1)
                     //            {
-                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExport(cat, Bdata, sc);
                     //            }
                     //            else if (flag == 2)
                     //            {
-                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x =>  (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x =>  (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExport(cat + "NotPrime", BdataNotPrime, sc);
                     //            }
 
@@ -233,12 +234,12 @@ namespace OmnimarkAmazonWeb.Controllers
                     //        {
                     //            if (flag == 1)
                     //            {
-                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                    //                Bdata = ukdb.tbl_Beauty.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExportCanada(cat, Bdata, sc);
                     //            }
                     //            else if (flag == 2)
                     //            {
-                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                    //                BdataNotPrime = ukdb.tbl_BeautyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                     //                fname = ReExportCanada(cat + "NotPrime", BdataNotPrime, sc);
                     //            }
 
@@ -252,12 +253,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat, Bbdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat + "NotPrime", BbdataNotPrime, sc, flag);
                             }
 
@@ -266,12 +267,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat, Bbdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat + "NotPrime", BbdataNotPrime, sc, flag);
                             }
 
@@ -280,12 +281,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat, Bbdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExport(cat + "NotPrime", BbdataNotPrime, sc, flag);
                             }
 
@@ -294,12 +295,12 @@ namespace OmnimarkAmazonWeb.Controllers
                         {
                             if (flag == 1)
                             {
-                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                Bbdata = ukdb.tbl_Baby.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExportCanada(cat, Bbdata, sc, flag);
                             }
                             else if (flag == 2)
                             {
-                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                BbdataNotPrime = ukdb.tbl_BabyNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                 fname = ReExportCanada(cat + "NotPrime", BbdataNotPrime, sc, flag);
                             }
 
@@ -313,12 +314,12 @@ namespace OmnimarkAmazonWeb.Controllers
                             {
                                 if (flag == 1)
                                 {
-                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExport(cat, Wdata, sc, flag);
                                 }
                                 else if (flag == 2)
                                 {
-                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExport(cat + "NotPrime", WdataNotPrime, sc, flag);
                                 }
 
@@ -327,12 +328,12 @@ namespace OmnimarkAmazonWeb.Controllers
                             {
                                 if (flag == 1)
                                 {
-                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExport(cat, Wdata, sc, flag);
                                 }
                                 else if (flag == 2)
                                 {
-                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExport(cat + "NotPrime", WdataNotPrime, sc, flag);
                                 }
 
@@ -341,12 +342,12 @@ namespace OmnimarkAmazonWeb.Controllers
                             {
                                 if (flag == 1)
                                 {
-                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExport(cat, Wdata, sc, flag);
                                 }
                                 else if (flag == 2)
                                 {
-                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExport(cat + "NotPrime", WdataNotPrime, sc, flag);
                                 }
 
@@ -355,12 +356,12 @@ namespace OmnimarkAmazonWeb.Controllers
                             {
                                 if (flag == 1)
                                 {
-                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                    Wdata = ukdb.tbl_Watches.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExportCanada(cat, Wdata, sc, flag);
                                 }
                                 else if (flag == 2)
                                 {
-                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                    WdataNotPrime = ukdb.tbl_WatchesNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                     fname = ReExportCanada(cat + "NotPrime", WdataNotPrime, sc, flag);
                                 }
 
@@ -373,12 +374,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                 {
                                     if (flag == 1)
                                     {
-                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExport(cat, Jdata, sc, flag);
                                     }
                                     else if (flag == 2)
                                     {
-                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExport(cat + "NotPrime", JdataNotPrime, sc, flag);
                                     }
 
@@ -387,12 +388,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                 {
                                     if (flag == 1)
                                     {
-                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExport(cat, Jdata, sc, flag);
                                     }
                                     else if (flag == 2)
                                     {
-                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExport(cat + "NotPrime", JdataNotPrime, sc, flag);
                                     }
 
@@ -401,12 +402,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                 {
                                     if (flag == 1)
                                     {
-                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExport(cat, Jdata, sc, flag);
                                     }
                                     else if (flag == 2)
                                     {
-                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExport(cat + "NotPrime", JdataNotPrime, sc, flag);
                                     }
 
@@ -415,12 +416,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                 {
                                     if (flag == 1)
                                     {
-                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                        Jdata = ukdb.tbl_Jewellery.Where(x => (x.Prime != "1" && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = fname = ReExportCanada(cat, Jdata, sc, flag);
                                     }
                                     else if (flag == 2)
                                     {
-                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                        JdataNotPrime = ukdb.tbl_JewelleryNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                         fname = ReExportCanada(cat + "NotPrime", JdataNotPrime, sc, flag);
                                     }
 
@@ -433,12 +434,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                     {
                                         if (flag == 1)
                                         {
-                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account1_Status == 1 && x.Account1_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                             fname = HomeAndKitchen(cat, Hdata, sc, flag);
                                         }
                                         else if (flag == 2)
                                         {
-                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(2000).ToList();
+                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account1_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account1_ReExport == 0 && x.Account1_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account1_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                              fname = HomeAndKitchen(cat + "NotPrime", HdataNotPrime, sc, flag);
                                         }
 
@@ -447,12 +448,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                     {
                                         if (flag == 1)
                                         {
-                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account2_Status == 1 && x.Account2_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                             fname = HomeAndKitchen(cat, Hdata, sc, flag);
                                         }
                                         else if (flag == 2)
                                         {
-                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(2000).ToList();
+                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account2_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account2_ReExport == 0 && x.Account2_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account2_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                              fname = HomeAndKitchen(cat + "NotPrime", HdataNotPrime, sc, flag);
                                         }
 
@@ -461,12 +462,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                     {
                                         if (flag == 1)
                                         {
-                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account4_Status == 1 && x.Account4_ReExport == 0 && x.UK_Prohibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                             fname = HomeAndKitchen(cat, Hdata, sc, flag);
                                         }
                                         else if (flag == 2)
                                         {
-                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(2000).ToList();
+                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account4_ReExport == 1 && x.UK_Prohibited != 1) || (x.Account4_ReExport == 0 && x.Account4_ExportDate < tempdate && x.UK_Prohibited != 1)).OrderByDescending(x => x.Account4_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                             fname = HomeAndKitchen(cat + "NotPrime", HdataNotPrime, sc, flag);
                                         }
 
@@ -475,12 +476,12 @@ namespace OmnimarkAmazonWeb.Controllers
                                     {
                                         if (flag == 1)
                                         {
-                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                            Hdata = ukdb.tbl_HomeandKitchen.Where(x => (x.Prime != 1 && x.Account3_Status == 1 && x.Account3_ReExport == 0 && x.CanadaProhibited != 1) || (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                             fname = HomeAndKitchenCanada(cat, Hdata, sc, flag);
                                         }
                                         else if (flag == 2)
                                         {
-                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(2000).ToList();
+                                            HdataNotPrime = ukdb.tbl_HomeAndKitchenNotPrime.Where(x => (x.UpdatedSalesPriceTimeStamp != null && x.Account3_ReExport == 1 && x.CanadaProhibited != 1) || (x.Account3_ReExport == 0 && x.Account3_ExportDate < tempdate && x.CanadaProhibited != 1)).OrderByDescending(x => x.Account3_ExportDate).Take(cv.TakeCountFromTable).ToList();
                                             fname = HomeAndKitchenCanada(cat + "NotPrime", HdataNotPrime, sc, flag);
                                         }
 
@@ -500,21 +501,21 @@ namespace OmnimarkAmazonWeb.Controllers
         public string ReExport(string foldername, IEnumerable<dynamic> data, string shortcode, int flag)
         {
 
-
             ((IObjectContextAdapter)ukdb).ObjectContext.CommandTimeout = 1800;
 
             string fname = "";
             string path = "";
             string cname = "";
 
-
+            ConfigValues cv = new ConfigValues();
+            
             StringWriter st = new StringWriter();
 
             string header = "sku	price	minimum-seller-allowed-price	maximum-seller-allowed-price	quantity	leadtime-to-ship";
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(header);
 
-            double addToMinVal =  double.Parse(ConfigurationManager.AppSettings["ProdPriceAddToMinValUK"]);
+            double addToMinVal = double.Parse(ConfigurationManager.AppSettings["ProdPriceAddToMinValUK"]); // added this on 18/7/2016  getting value from config file
             if (data != null && data.Count() != 0)
             {
                 foreach (var d in data)
@@ -542,17 +543,17 @@ namespace OmnimarkAmazonWeb.Controllers
                         if (price != 0)
                         {
 
-                            double minval = double.Parse(ConfigurationManager.AppSettings["ProdPriceMinValUK"]);
-                            if (price > 0 && price <= 19.99)
+                            double minval = cv.MinimumPricefrmConfig; // added this on 18/7/2016
+                            if (price > cv.InitialRangeMinFrmConfig && price <= cv.InitialRangeMaxFrmConfig)  // Change this on 18/7/2016
                             {
                                 pricemin = minval;
                             }
                             else
                             {
-                                for (double i = 20; i < 500; i += 10)
+                                for (double i = cv.NextRangeMFrmConfig; i < cv.TotalFrmConfig; i += cv.IncreamentRangeFrmConfig)// Change this on 18/7/2016
                                 {
-                                    minval = minval + addToMinVal;
-                                    double temp = i + 10;
+                                    minval = minval + cv.addToMinVal;// value added to price according to range of it
+                                    double temp = i + cv.IncreamentLoopRangeFrmConfig;  // Change this on 18/7/2016
                                     if (price >= i && price < temp)
                                     {
                                         pricemin = minval;
@@ -566,7 +567,7 @@ namespace OmnimarkAmazonWeb.Controllers
                         }
                         else
                         {
-                            finalprice = 17.45;
+                            finalprice = cv.MinimumPricefrmConfig;   // Change this on 18/7/2016
                         }
                         string qty;
                         if (flag != 2)
@@ -574,16 +575,16 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = d.ASIN.Trim();
                             if (d.Prime == "0" || d.Prime == null || d.Prime == "2")
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();  // Change this on 18/7/2016 getting value from config file
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
 
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
                         else
@@ -591,24 +592,24 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = "NP-" + d.ASIN.Trim();
                             if (d.Prime == null || d.Prime == "2")
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();  // Change this on 18/7/2016 getting value from config file
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
 
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
 
-                        displayMinprice = Math.Round(finalprice - 45, 2);
-                        displayMaxprice = Math.Round(finalprice + 30, 2);
-                        if (displayMinprice <= 17.45)
+                        displayMinprice = Math.Round(finalprice - cv.SubstractDisplayMinPricefrmConfig, 2);    // Change this on 18/7/2016  getting value from config file
+                        displayMaxprice = Math.Round(finalprice + cv.AddDisplayMaxPricefrmConfig, 2);
+                        if (displayMinprice <= cv.MinimumPricefrmConfig)
                         {
-                            displayMinprice = 17.45;
+                            displayMinprice = cv.MinimumPricefrmConfig;
                         }
 
                         sb.AppendLine(string.Join("\t",
@@ -617,7 +618,7 @@ namespace OmnimarkAmazonWeb.Controllers
                                      string.Format(@"""{0}""", String.Format("{0:0.00}", displayMinprice)),
                                      string.Format(@"""{0}""", String.Format("{0:0.00}", displayMaxprice)),
                                      string.Format(@"""{0}""", qty),
-                                     string.Format(@"""{0}""", "4")));
+                                     string.Format(@"""{0}""", cv.LeadTimeToShipfrmConfig)));    // Change this on 18/7/2016
 
 
                         if (shortcode == "ED")
@@ -693,7 +694,7 @@ namespace OmnimarkAmazonWeb.Controllers
 
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(header);
-
+            ConfigValues cv = new ConfigValues();   // Change this on 18/7/2016
 
             if (data != null && data.Count() != 0)
             {
@@ -717,7 +718,7 @@ namespace OmnimarkAmazonWeb.Controllers
 
                         if (price != 0)
                         {
-                            double minval = 0.00;
+                           
 
                             if (price > 0 && price <= 19.99)
                             {
@@ -801,7 +802,7 @@ namespace OmnimarkAmazonWeb.Controllers
                         }
                         else
                         {
-                            finalprice = 10.01;
+                            finalprice = cv.CanadaMinimumPricefrmConfig;
                         }
                         string qty;
                         if (flag != 2)
@@ -809,15 +810,15 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = d.ASIN.Trim();
                             if (d.Prime == "0" || d.Prime == null || d.Prime == "2")
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
                         else
@@ -825,15 +826,15 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = "NP-" + d.ASIN.Trim();
                             if (d.Prime == null || d.Prime == "2")
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
                         sb.AppendLine(string.Join("\t",
@@ -842,7 +843,7 @@ namespace OmnimarkAmazonWeb.Controllers
                                                   string.Format(@"""{0}""", String.Format("{0:0.00}", finalprice - 10)),
                                                   string.Format(@"""{0}""", String.Format("{0:0.00}", finalprice + 10)),
                                                   string.Format(@"""{0}""", qty),
-                                                  string.Format(@"""{0}""", "4")));
+                                                  string.Format(@"""{0}""", cv.CanadaLeadTimeToShipfrmConfig)));
 
                         d.Account3_ReExport = 1;
                         cname = "" + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + "_UpdatePriceQTY_" + foldername + "_DC_" + fcountSport + "";
@@ -3380,7 +3381,7 @@ namespace OmnimarkAmazonWeb.Controllers
             string fname = "";
             string path = "";
             string cname = "";
-
+            ConfigValues cv = new ConfigValues();
 
             StringWriter st = new StringWriter();
             //string header = "sku	product-id	product-id-type	price	minimum-seller-allowed-price	maximum-seller-allowed-price	item-condition	quantity	add-delete	will-ship-internationally	expedited-shipping	item-note	fulfillment-center-id	merchant-shipping-group-name";
@@ -3422,17 +3423,17 @@ namespace OmnimarkAmazonWeb.Controllers
                         if (price != 0)
                         {
 
-                            double minval = 57.49;
-                            if (price > 0 && price <= 19.99)
+                            double minval = cv.MinimumPricefrmConfig;
+                            if (price > cv.InitialRangeMinFrmConfig && price <= cv.InitialRangeMaxFrmConfig)
                             {
                                 pricemin = minval;
                             }
                             else
                             {
-                                for (double i = 20; i < 500; i += 10)
+                                for (double i = cv.NextRangeMFrmConfig; i < cv.TotalFrmConfig; i += cv.IncreamentRangeFrmConfig)
                                 {
-                                    minval = minval + 12;
-                                    double temp = i + 10;
+                                    minval = minval + cv.addToMinVal;
+                                    double temp = i + cv.IncreamentLoopRangeFrmConfig;
                                     if (price >= i && price < temp)
                                     {
                                         pricemin = minval;
@@ -3446,7 +3447,7 @@ namespace OmnimarkAmazonWeb.Controllers
                         }
                         else
                         {
-                            finalprice = 17.45;
+                            finalprice = cv.MinimumPricefrmConfig;
                         }
 
                         string qty;
@@ -3455,15 +3456,15 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN =  d.ASIN.Trim();
                             if (d.Prime == 0 || d.Prime == null || d.Prime == 2)
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
                         else
@@ -3471,23 +3472,23 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = "NP-" + d.ASIN.Trim();
                             if (d.Prime == null || d.Prime == 2)
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
 
-                        displayMinprice = Math.Round(finalprice - 45, 2);
-                        displayMaxprice = Math.Round(finalprice + 30, 2);
-                        if (displayMinprice <= 17.45)
+                        displayMinprice = Math.Round(finalprice - cv.SubstractDisplayMinPricefrmConfig, 2);
+                        displayMaxprice = Math.Round(finalprice + cv.AddDisplayMaxPricefrmConfig, 2);
+                        if (displayMinprice <= cv.MinimumPricefrmConfig)
                         {
-                            displayMinprice = 17.45;
+                            displayMinprice = cv.MinimumPricefrmConfig;
                         }
                         //sb.AppendLine(string.Join("\t",
                         //                string.Format(@"""{0}""", d.ASIN.Trim()),
@@ -3512,7 +3513,7 @@ namespace OmnimarkAmazonWeb.Controllers
               string.Format(@"""{0}""", String.Format("{0:0.00}", displayMinprice)),
               string.Format(@"""{0}""", String.Format("{0:0.00}", displayMaxprice)),
               string.Format(@"""{0}""", qty),
-              string.Format(@"""{0}""", "4")));
+              string.Format(@"""{0}""", cv.LeadTimeToShipfrmConfig)));
 
                         if (shortcode == "ED")
                         {
@@ -3599,7 +3600,7 @@ namespace OmnimarkAmazonWeb.Controllers
             string path = "";
             string cname = "";
             string ASIN;
-
+            ConfigValues cv=new ConfigValues();
             StringWriter st = new StringWriter();
             string header = "sku	price	minimum-seller-allowed-price	maximum-seller-allowed-price	quantity	leadtime-to-ship";
 
@@ -3712,7 +3713,7 @@ namespace OmnimarkAmazonWeb.Controllers
                         }
                         else
                         {
-                            finalprice = 10.01;
+                            finalprice = cv.CanadaMinimumPricefrmConfig;
                         }
 
                         string qty;
@@ -3721,15 +3722,15 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = d.ASIN.Trim();
                             if (d.Prime == 0 || d.Prime == null || d.Prime == 2)
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
                         else
@@ -3737,15 +3738,15 @@ namespace OmnimarkAmazonWeb.Controllers
                             ASIN = "NP-" + d.ASIN.Trim();
                             if (d.Prime == null || d.Prime == 2)
                             {
-                                qty = "0";
-                                d.Instock = 0;
-                                d.Qty = 0;
+                                qty = cv.minimumQtyfrmConfig.ToString();
+                                d.Instock = cv.minimumQtyfrmConfig;
+                                d.Qty = cv.minimumQtyfrmConfig;
                             }
                             else
                             {
-                                qty = "3";
-                                d.Instock = 3;
-                                d.Qty = 3;
+                                qty = cv.maximumQtyfrmConfig.ToString();
+                                d.Instock = cv.maximumQtyfrmConfig;
+                                d.Qty = cv.maximumQtyfrmConfig;
                             }
                         }
 
@@ -3755,7 +3756,7 @@ namespace OmnimarkAmazonWeb.Controllers
                                       string.Format(@"""{0}""", String.Format("{0:0.00}", finalprice - 10)),
                                       string.Format(@"""{0}""", String.Format("{0:0.00}", finalprice + 10)),
                                       string.Format(@"""{0}""", qty),
-                                      string.Format(@"""{0}""", "4")));
+                                      string.Format(@"""{0}""", cv.CanadaLeadTimeToShipfrmConfig)));
 
 
                         if (shortcode == "DC")
@@ -3804,12 +3805,12 @@ namespace OmnimarkAmazonWeb.Controllers
         {
             try
             {
-
+                ConfigValues cv = new ConfigValues();
                 if (filename != "Blank")
                 {
                     // HttpPostedFileBase file = null;
 
-                    string targetPath = "C:/MWS_SERVICE/" + foldername; //with complete path
+                    string targetPath = cv.FolderPath + foldername; //with complete path   // Change this on 18/7/2016
                     FileStream fs = null;
 
                     if (!System.IO.Directory.Exists(targetPath))
@@ -3854,7 +3855,7 @@ namespace OmnimarkAmazonWeb.Controllers
                 }
                 else
                 {
-                    string targetPath = "C:/MWS_SERVICE/" + foldername; //with complete path
+                    string targetPath = cv.FolderPath + foldername; //with complete path
                     return (targetPath + "/" + "Blank");
                 }
             }

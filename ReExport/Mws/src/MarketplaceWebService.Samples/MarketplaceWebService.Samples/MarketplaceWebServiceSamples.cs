@@ -27,6 +27,7 @@ using UkListing;
 using System.Web.Mvc;
 using System.Linq;
 using OmnimarkAmazonWeb.Models;
+using System.Configuration;
 
 
 namespace MarketplaceWebService.Samples
@@ -63,6 +64,12 @@ namespace MarketplaceWebService.Samples
             string merchantId = "";
             string marketplaceId = "";
             UKOmnimarkEntities ukdb = new UKOmnimarkEntities();
+            string[] accessKeyIdFrmConfig = ConfigurationManager.AppSettings["accessKeyIdFrmConfig"].ToString().Split(',');
+            string[] secretAccessKeyFrmConfig = ConfigurationManager.AppSettings["secretAccessKeyFrmConfig"].ToString().Split(',');
+            string[] marketplaceIdFrmConfig = ConfigurationManager.AppSettings["marketplaceIdFrmConfig"].ToString().Split(',');
+            string[] merchantIdFrmConfig = ConfigurationManager.AppSettings["merchantIdFrmConfig"].ToString().Split(',');
+            
+
             List<string> shortcode1 = ukdb.tbl_Account.Where(x => x.ReExportAllow == 1).Select(x => x.ShortCode).ToList();
             foreach (var item in shortcode1)
             {
@@ -76,36 +83,33 @@ namespace MarketplaceWebService.Samples
 
                             if (item == ConstantData.ED)
                             {
-                                accessKeyId = "AKIAID5OB6V2ORNL2Z5Q";
-                                secretAccessKey = "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";
-                                merchantId = "A1A5VEOFBEHXQG";
-                                marketplaceId = "A1F83G8C2ARO7P";
+                                accessKeyId = accessKeyIdFrmConfig[0];  /// values are coming from config file {0,1,2,3} as [ED,EM,DI,DC] Date 18/7/2016
+                                secretAccessKey = secretAccessKeyFrmConfig[0];                              
+                                merchantId = merchantIdFrmConfig[0];
+                                marketplaceId = marketplaceIdFrmConfig[0];
                             }
                             else if (item == ConstantData.EM)
                             {
-                                accessKeyId = "AKIAJ246DCRVWL64YUDA";
-                                secretAccessKey = "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";
-
-                                merchantId = "A3C9U571M9O7GQ";
-                                marketplaceId = "A1F83G8C2ARO7P";
+                                accessKeyId = accessKeyIdFrmConfig[1];
+                                secretAccessKey = secretAccessKeyFrmConfig[1];
+                                merchantId = merchantIdFrmConfig[1];
+                                marketplaceId = marketplaceIdFrmConfig[0];
 
                             }
                             else if (item == ConstantData.DI)
                             {
-                                accessKeyId = "AKIAJDTYDDBYQE5L22KA";
-                                secretAccessKey = "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";
-
-                                merchantId = "A437075OVO11A";
-                                marketplaceId = "A1F83G8C2ARO7P";
+                                accessKeyId = accessKeyIdFrmConfig[2];
+                                secretAccessKey = secretAccessKeyFrmConfig[2];
+                                merchantId = merchantIdFrmConfig[2];
+                                marketplaceId = marketplaceIdFrmConfig[0];
 
                             }
                             else if (item == ConstantData.DC)
                             {
-                                accessKeyId = "AKIAJLST572AHCSG5Y6A";
-                                secretAccessKey = "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";
-
-                                merchantId = "A5F5V406778C6";
-                                marketplaceId = "A2EUQ1WTGCTBG2";
+                                accessKeyId = accessKeyIdFrmConfig[3];
+                                secretAccessKey = secretAccessKeyFrmConfig[3];
+                                merchantId = merchantIdFrmConfig[3];
+                                marketplaceId = marketplaceIdFrmConfig[1];
 
                             }
 

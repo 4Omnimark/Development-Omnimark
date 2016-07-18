@@ -154,6 +154,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigValues.cs" />
     <Compile Include="Controllers\ItemManagementController.cs" />
     <Compile Include="Controllers\_BaseController.cs" />
     <Compile Include="Emails.cs" />
